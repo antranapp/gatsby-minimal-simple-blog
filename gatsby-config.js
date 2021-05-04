@@ -19,10 +19,10 @@ module.exports = {
     title: `gatsby-minimal-simple-blog`,
     author: {
       name: `An Tran`,
-      summary: `Minimal simple starter for blog`,
+      summary: `#Swift #Mobile #MachineLearning #Minimalist`,
     },
     description: `A minimally simple starter package to build a static blogging site`,
-    siteUrl: `https://github.com/antranapp/gatsby-minimal-simple-blog`,
+    siteUrl: `https://antranapp.github.io/gatsby-minimal-simple-blog/`,
     social: {
       twitter: `AnTranApp`,
     },
