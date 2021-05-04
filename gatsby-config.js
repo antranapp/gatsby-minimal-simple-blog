@@ -153,11 +153,5 @@ module.exports = {
     `gatsby-plugin-draft`, // local plugins
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-sitemap`,
-    {
-      resolve: `gatsby-plugin-plausible`,
-      options: {
-        domain: `antran.app`,
-      },
-    },
   ],
 }

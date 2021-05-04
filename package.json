@@ -1,8 +1,7 @@
 {
   "name": "gatsby-minimal-simple-blog",
-  "private": true,
   "description": "A minimally simple starter package to build a static blogging site using Gatsbyjs",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "An Tran",
   "bugs": {
     "url": "https://github.com/antranapp/gatsby-minimal-simple-blog"
