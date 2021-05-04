@@ -21,6 +21,17 @@ git push -u origin gh-pages
 
 **Step 2**
 
+In `gatsby-config.js`, change the `pathPrefix` to the name of your Github repository
+
+```javascript
+module.exports = {
+  pathPrefix: `/gatsby-minimal-simple-blog`,
+  ...
+}
+```
+
+**Step 3**
+
 ```shell
 npm run deploy
 ```

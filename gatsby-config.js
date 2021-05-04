@@ -15,6 +15,7 @@ const createRSSItem = (site, edge) => {
 }
 
 module.exports = {
+  pathPrefix: `/gatsby-minimal-simple-blog`,
   siteMetadata: {
     title: `gatsby-minimal-simple-blog`,
     author: {
