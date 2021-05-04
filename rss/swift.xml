@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Swift by An Tran]]></title><description><![CDATA[A personal space to share what I am learning and doing.]]></description><link>https://antran.app</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 03 May 2021 21:55:16 GMT</lastBuildDate><item><title><![CDATA[A platform to showcase your side projects]]></title><description><![CDATA[icon Why? Most developers have their own pet/hobby projects that they are working on during free time. There are different motiviations for…]]></description><link>https://antran.app/2020/indie_app_store/</link><guid isPermaLink="false">https://antran.app/2020/indie_app_store/</guid><pubDate>Fri, 05 Jun 2020 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/antranapp/IndieApps/master/Web/assets/appicon.png&quot; alt=&quot;icon&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;why&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#why&quot; aria-label=&quot;why permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Why?&lt;/h2&gt;
+&lt;p&gt;Most developers have their own pet/hobby projects that they are working on during free time. There are different motiviations for creating side projects: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learning new technologies.&lt;/li&gt;
+&lt;li&gt;Contributing to open source community.&lt;/li&gt;
+&lt;li&gt;Solving their own problems, both personally or professtionally.&lt;/li&gt;
+&lt;li&gt;Earning extra money.&lt;/li&gt;
+&lt;li&gt;Going full indie mode.&lt;/li&gt;
+&lt;li&gt;etc…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I’m also working on a lot of side projects for different purposes. But one thing that I have in common for most of my side projects is that I lost interest and motiviations fast after the starting phase or after solving big technically challenges, or because I have another more interesting projects. I can see the problem is that I mostly work alone on such projects. There are almost no interactions with outside world because of different reasons. I wish I could be able to find like-mind people to share about my projects in such early phases.&lt;/p&gt;
+&lt;p&gt;Then I find &lt;a href=&quot;https://twitter.com/stroughtonsmith/status/1266058437374476293&quot;&gt;this twitter thread&lt;/a&gt;. People are working on so many intersting projects/products. And by sharing them with other fellow developers, the chance to find people who are intrested in your projects (either technically or because of the products) is a lot higher. You’ll be able to get more feedbacks about your projects or find early adopting users from a such platform.&lt;/p&gt;
+&lt;h2 id=&quot;what&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#what&quot; aria-label=&quot;what permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What?&lt;/h2&gt;
+&lt;p&gt;From this observation, I can see a need for a platform to discuss about such preproduction-ready projects. My idea is a platform that you can use to discuss about your projects in very early phases. This is something that you want to use during the development phases for your projects. And when you finish them, you can submit your project to other platforms such as Hacker News or Product Hunt. With a community-oriented approach in mind, I’d like to opensource both the database &amp;#x26; the clients for this platforms. &lt;/p&gt;
+&lt;p&gt;I’ve spent the last few days to hack together a MVP. It is an iOS app written in SwiftUI. The database is a git repository hosted publicily on GitHub. With this approach we can easily crowdsource the data for the database and we can also create different clients for other platforms easily.&lt;/p&gt;
+&lt;h3 id=&quot;screenshots&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#screenshots&quot; aria-label=&quot;screenshots permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Screenshots&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/antranapp/IndieApps/master/Web/assets/screenshot1.png&quot; alt=&quot;icon&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/antranapp/IndieApps/master/Web/assets/screenshot2.png&quot; alt=&quot;icon&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/antranapp/IndieApps/master/Web/assets/screenshot3.png&quot; alt=&quot;icon&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;where&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#where&quot; aria-label=&quot;where permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Where?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;If you want to contribute to this project, feel free to contact me &lt;a href=&quot;https://twitter.com/antranapp&quot;&gt;on twitter&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;The iOS app is built using SwiftUI + Combine + The Composable Architecture + Git Backend and hosted in &lt;a href=&quot;https://github.com/antranapp/IndieApps&quot;&gt;GitHub&lt;/a&gt;. &lt;/li&gt;
+&lt;li&gt;Content is hosted in &lt;a href=&quot;https://github.com/antranapp/IndieAppsContent&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;A testflight version is &lt;a href=&quot;https://antranapp.github.io/IndieApps/&quot;&gt;avaiable here&lt;/a&gt;. &lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[App modularization with RIBs architecture]]></title><description><![CDATA[App architecture Every apps are developed following one or some kinds of architectures or design patterns. Choosing an architecture for an…]]></description><link>https://antran.app/2019/ribs/</link><guid isPermaLink="false">https://antran.app/2019/ribs/</guid><pubDate>Mon, 08 Jul 2019 22:40:32 GMT</pubDate><content:encoded>&lt;h2 id=&quot;app-architecture&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#app-architecture&quot; aria-label=&quot;app architecture permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;App architecture&lt;/h2&gt;
+&lt;p&gt;Every apps are developed following one or some kinds of architectures or design patterns. Choosing an architecture for an app depends on a lot of factors: team size, project size, type of the apps, release cycle etc… And the chosen architecture should be continuously reevaluated when the app grows.&lt;/p&gt;
+&lt;p&gt;MVC has been the standard architecture for iOS apps for a long time. But due to the “massive view controllers” problem, community has come up with many alternative architectures such as MVP, MVVM, Viper, RIBs, Redux etc … with more or less the same goals, separate business logic and app logic into different components to aid SOLID principles.&lt;/p&gt;
+&lt;p&gt;I have been working intensively with MVVM in the last four years at &lt;a href=&quot;https://www.payback.de&quot;&gt;my current company&lt;/a&gt;.  With a team of 5-7 developers, MVVM served us quite well. We often have a setup where two developers work together on the same feature. One of them focus on the view controller (UI) part, the other on the service, view model part.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;But MVVM comes up with some issues too:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We sometimes have some massive view models where the business logics behind the features are complex.&lt;/li&gt;
+&lt;li&gt;We have our navigation logics inside our view controllers which clutter the view controllers code (it can be solved by using Coordinators pattern).&lt;/li&gt;
+&lt;li&gt;We have bad code coverage since we can’t test all app logics due to strong couplings between components where we have to mock a lot of things to be able to test a simple component.&lt;/li&gt;
+&lt;li&gt;No clear dependency enforcing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Since our team as well as the complexity of our app is growing fast at this moment. I have taken a look for an alternative architecture for our app.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The goals are:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;modular architecture where big team can work independently in the same code base.&lt;/li&gt;
+&lt;li&gt;Testability and scalability support from architecture level.&lt;/li&gt;
+&lt;li&gt;Component-based to enforce dependency Injection and aid portability.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;VIPER and RIBs come into my consideration. Since RIBs seems to be an improved version of VIPER, I decided to create sample project using RIBs to evaluate it.&lt;/p&gt;
+&lt;h2 id=&quot;ribs&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#ribs&quot; aria-label=&quot;ribs permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;RIBs&lt;/h2&gt;
+&lt;p&gt;RIBs is a variation of VIPER that is introduced by UBER in 2017. From &lt;a href=&quot;https://eng.uber.com/driver-app-ribs-architecture/&quot;&gt;their blogs&lt;/a&gt;, the motivations for the creating RIBs are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Working at scale:&lt;/strong&gt; At Uber, scale is both a top constraint and most valuable resource. Three million drivers use our app and we can’t fail them. At the same time, as an engineering organization we have grown to a point where we have hundreds of engineers available to work together building the app. Scale is key to all of our decision-making, from the planning all the way to the rollout.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;RIBs to the rescue:&lt;/strong&gt; By utilizing RIBs and the plugin infrastructure for Carbon, we gained the benefits of the architure in key ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Modularity&lt;/strong&gt;: Each feature is developed in a way that does not depend on another unless it is Core RIBs. This architecture makes it easier for engineering teams to develop feature RIBs in parallel, without worrying how one affects another.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Extensibility:&lt;/strong&gt; The tree-like architecture can be extended vertically by adding children and horizontally by adding siblings or segregating business logic in different workers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reliability:&lt;/strong&gt; The core vs non-core concept implemented using the plugin framework allows us to disable non-core parts of the code, so we can move fast but minimize breaking things.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Building together:&lt;/strong&gt; We could not have done this without the help provided by our driver-partners, and the key insights they provided to us during our user research and beta testing phases.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;RIBs are usually composed of the following elements, with every element implemented in its own class:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/627e44ddf8e7de2c716364854fdee754/2cefc/ribs.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 37.9746835443038%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAIAAAB2/0i6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA8UlEQVQY032Q2aqEMBBE/f9vE0RFEWXADRT3fdfccxNmnoapl3RXunopbV3XeZ6XZTmOQwixbds0TTDwz/NAjuPY9z0FpOd5wsNQRqzVda3rehzHUHy0bWtZlm3bBKTIwjB0Xbcoin3faVFVVRAEXdfxq8GmaZrnOQOZA9VJUEd7fn3ff0lc18WALMtoV5blv5h+PJQS3PdNPEmg/Kyt5vDLqlQOwwBPqgmJ+41HQt2mvCCGUaZsEuINTXwDFbR3HKdpGmQsjDWe50VRRMqMX2JOwBjDMJIkUcfji2ma6DmBRX6JGcXayl51Hicod8Cn7A8/h8qYEDKCHwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;spm1&quot;
+        title=&quot;spm1&quot;
+        src=&quot;/static/627e44ddf8e7de2c716364854fdee754/f058b/ribs.png&quot;
+        srcset=&quot;/static/627e44ddf8e7de2c716364854fdee754/c26ae/ribs.png 158w,
+/static/627e44ddf8e7de2c716364854fdee754/6bdcf/ribs.png 315w,
+/static/627e44ddf8e7de2c716364854fdee754/f058b/ribs.png 630w,
+/static/627e44ddf8e7de2c716364854fdee754/40601/ribs.png 945w,
+/static/627e44ddf8e7de2c716364854fdee754/78612/ribs.png 1260w,
+/static/627e44ddf8e7de2c716364854fdee754/2cefc/ribs.png 1400w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The sample app will fetch images from &lt;a href=&quot;https://www.pixabay.com&quot;&gt;pixabay.com&lt;/a&gt; using a search term entered by users. The app has a simple navigation step from the result list screen to the detail screen.&lt;/p&gt;
+&lt;p&gt;The code is available in github: &lt;a href=&quot;https://github.com/antranapp/PixabayRIBs&quot;&gt;https://github.com/antranapp/PixabayRIBs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Some benefits from RIBs that I can observe:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Each RIB is a separated component which has a clear dependency definition and can be developed and tested separately.&lt;/li&gt;
+&lt;li&gt;Composition of components aids parallelism of feature development.&lt;/li&gt;
+&lt;li&gt;Straightforward migration path from MVVM since the logic of ViewModel can be splited into Interactor and Presentor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;But there are some downside too:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;RIBs framework depends on RxSwift for message passings which can be a blocker for projects where a different reactive framework is used.&lt;/li&gt;
+&lt;li&gt;Many boilerplates code for simple components (which can be solved with the provided code templates)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;conclusion&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-label=&quot;conclusion permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;I can see that RIBs architecture can bring great benefits to big apps and big teams where components can be developed and tested by different developers in parallel. It is also suitable when your teams create multiple apps using the same components with similar business logics. For smaller apps and smaller teams, it might be overkilled and will slow you down at the beginning.&lt;/p&gt;
+&lt;h2 id=&quot;further-readings&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#further-readings&quot; aria-label=&quot;further readings permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Further readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;RIBs’s repository: &lt;a href=&quot;https://github.com/uber/RIBs&quot;&gt;https://github.com/uber/RIBs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Engineering the Architecture Behind Uber’s New Rider App: &lt;a href=&quot;https://eng.uber.com/new-rider-app/&quot;&gt;https://eng.uber.com/new-rider-app/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Architecting Uber’s New Driver App in RIBs &lt;a href=&quot;https://eng.uber.com/driver-app-ribs-architecture/&quot;&gt;https://eng.uber.com/driver-app-ribs-architecture/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;RIBs - Uber’s new mobile architecture that scales to hundreds of engineers: &lt;a href=&quot;https://www.youtube.com/watch?v=FfwZSk6VRVY&quot;&gt;https://www.youtube.com/watch?v=FfwZSk6VRVY&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[MVVM with SwiftUI and Combine]]></title><description><![CDATA[Before WWDC 2019 Apple has always advertised MVC as the preferred architecture to develop iOS apps. So the community comes up with different…]]></description><link>https://antran.app/2019/swiftui_combine_mvvm/</link><guid isPermaLink="false">https://antran.app/2019/swiftui_combine_mvvm/</guid><pubDate>Tue, 11 Jun 2019 22:40:32 GMT</pubDate><content:encoded>&lt;h3 id=&quot;before-wwdc-2019&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#before-wwdc-2019&quot; aria-label=&quot;before wwdc 2019 permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Before WWDC 2019&lt;/h3&gt;
+&lt;p&gt;Apple has always advertised MVC as the preferred architecture to develop iOS apps. So the community comes up with different alternative architectures to solve the “big view controllers” problem. MVVM is one of the most popular architecture used by iOS developers. Before WWDC 2019, most of MVVM implementations use some popular reactive framework such as &lt;a href=&quot;https://github.com/ReactiveX/RxSwift&quot;&gt;RxSwift&lt;/a&gt;, &lt;a href=&quot;https://github.com/ReactiveCocoa/ReactiveSwift&quot;&gt;ReactiveSwift&lt;/a&gt; or &lt;a href=&quot;https://github.com/DeclarativeHub/ReactiveKit&quot;&gt;ReactiveKit&lt;/a&gt; along with their UI binding counterparts such as &lt;a href=&quot;https://github.com/ReactiveX/RxSwift/tree/master/RxCocoa&quot;&gt;RxCocoa&lt;/a&gt;, &lt;a href=&quot;https://github.com/ReactiveCocoa/ReactiveCocoa&quot;&gt;ReactiveCocoa&lt;/a&gt; or &lt;a href=&quot;https://github.com/DeclarativeHub/Bond&quot;&gt;Bond&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;after-wwdc-2019&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#after-wwdc-2019&quot; aria-label=&quot;after wwdc 2019 permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;After WWDC 2019&lt;/h3&gt;
+&lt;p&gt;In WWDC 2019, Apple has introduced two awesome frameworks which replace the above frameworks to provide reactive programming and UI bindings. From now on, developers can implement MVVM architecture for their apps using only native frameworks which provide many benefit such as stability, binary app size and consistent APIs etc…&lt;/p&gt;
+&lt;p&gt;Apple seems also to go away from MVC and adopt MVVM as the default architecture for apps development.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 500px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d15c80b6a6fd9df71a21299d3cbb48b7/0b533/mvvm_1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 48.734177215189874%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABnElEQVQoz52SzSsEYRzHZ56Z2ZnZ9519H2PXTt4y7HrZ0rBjC4mUUkQIF0p5O8tFSTkIF0fKwdHJwcHJjQN/0tfzPIvU7gGHb8/L79fn2+9FqFarqFQq8DwPxWIR5XIZ7I+drusim81CEITfy3EcFAoF2LYN0zRhWRZ/53I5fobD4b8B/5jcUIRKJmLtrWsa/JoKnYoQwj9FUaT6TKaJqiLTHB9kiTQEtvaU0Tc8BlFSIHQ6JQyNTqHfHYGqaj+ANcdoIk2TR+GOT8Oy2z7j5Duuh2IwrDbE850IxTMQvNUDzB3dYfbwBrEmu869a2YDs1fPmLl8wuDmcV08EE3SKiR+DzLg5PYp1s4esHJ6jyRzCehoYUPJ56H7JPQu7GPp9g2L1y/w9s7h1zU+LCaTbkDISENWdUiKrwac2DrB+sUjlikw0dzOnTKZLJKpFL+X5nco8J0CX1HZPQOhvWUbwLYibhjwRxIcJtL+Bw0KjKSbYXYMIFVwIMm+upL81DXT7XKFTbthyayPaiCCUML8/9p8DYXICi+VwRQtgA8rLf6bhJClxgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;MVVM&quot;
+        title=&quot;MVVM&quot;
+        src=&quot;/static/d15c80b6a6fd9df71a21299d3cbb48b7/0b533/mvvm_1.png&quot;
+        srcset=&quot;/static/d15c80b6a6fd9df71a21299d3cbb48b7/c26ae/mvvm_1.png 158w,
+/static/d15c80b6a6fd9df71a21299d3cbb48b7/6bdcf/mvvm_1.png 315w,
+/static/d15c80b6a6fd9df71a21299d3cbb48b7/0b533/mvvm_1.png 500w&quot;
+        sizes=&quot;(max-width: 500px) 100vw, 500px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;With SwiftUI, you don’t have to decide if you want to use visual tools or writting code to design, you can have both at the same time.&lt;/p&gt;
+&lt;p&gt;Some WWDC videos related to this topic:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Integrating SwiftUI: &lt;a href=&quot;https://developer.apple.com/videos/play/wwdc2019/231/&quot;&gt;https://developer.apple.com/videos/play/wwdc2019/231/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Combine in Practice: &lt;a href=&quot;https://developer.apple.com/videos/play/wwdc2019/721/&quot;&gt;https://developer.apple.com/videos/play/wwdc2019/721/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mastering Xcode Previews: &lt;a href=&quot;https://developer.apple.com/videos/play/wwdc2019/233/&quot;&gt;https://developer.apple.com/videos/play/wwdc2019/233/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;mvvm-using-swift-and-combine&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#mvvm-using-swift-and-combine&quot; aria-label=&quot;mvvm using swift and combine permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;MVVM using Swift and Combine&lt;/h3&gt;
+&lt;p&gt;I’ve created a simple project to demonstrate how we can use those native frameworks to implement MVVM architecture for iOS apps. The code is here on github: &lt;a href=&quot;https://github.com/antranapp/PixabaySwiftUICombine/&quot;&gt;https://github.com/antranapp/PixabaySwiftUICombine/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This project demonstrates how to implement MVVM using SwiftUI and Combine to search and display images from pixabay.com. There are also some tests to demonstrate the testability of the implementation.&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;language-text&quot;&gt;View&lt;/code&gt; is written using SwiftUI framework. Each &lt;code class=&quot;language-text&quot;&gt;View&lt;/code&gt; has its own &lt;code class=&quot;language-text&quot;&gt;ViewModel&lt;/code&gt; which is responsible to call a &lt;code class=&quot;language-text&quot;&gt;Service&lt;/code&gt; to fetch data &lt;code class=&quot;language-text&quot;&gt;DataModel&lt;/code&gt; from the remote server:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;swift&quot;&gt;&lt;pre class=&quot;language-swift&quot;&gt;&lt;code class=&quot;language-swift&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// View Model&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;search&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;withTerm term&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;isActive &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; dataUpdater &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;AnySubscriber&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;ImageListModel&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+        receiveValue&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;weak&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; imageListModel &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;Subscribers&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;Demand&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;images &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; imageListModel&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;hits
+            &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;unlimited
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        receiveCompletion&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;weak&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; completion &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;failure&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;error&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; completion &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;error&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;token keyword&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;images &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+            &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;isActive &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+    pixaBayService&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;fetch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;searchTerm&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; term&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;subscribe&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;dataUpdater&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;In &lt;code class=&quot;language-text&quot;&gt;View&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;ViewModel&lt;/code&gt; is declared as &lt;code class=&quot;language-text&quot;&gt;ObjectBinding&lt;/code&gt; to provide binding functionality, so that the &lt;code class=&quot;language-text&quot;&gt;View&lt;/code&gt; gets informed when &lt;code class=&quot;language-text&quot;&gt;ViewModel&lt;/code&gt; gets new data from the &lt;code class=&quot;language-text&quot;&gt;Service&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;swift&quot;&gt;&lt;pre class=&quot;language-swift&quot;&gt;&lt;code class=&quot;language-swift&quot;&gt;@&lt;span class=&quot;token builtin&quot;&gt;ObjectBinding&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; viewModel &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;ImageListViewModel&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;pixaBayService&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;PixaBayService&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The &lt;code class=&quot;language-text&quot;&gt;Service&lt;/code&gt; uses &lt;code class=&quot;language-text&quot;&gt;Combine&lt;/code&gt;, specifically &lt;code class=&quot;language-text&quot;&gt;Future&lt;/code&gt; to return data from an asynchronous call:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;swift&quot;&gt;&lt;pre class=&quot;language-swift&quot;&gt;&lt;code class=&quot;language-swift&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;fetch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;searchTerm&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;Publishers&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;Future&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;ImageListModel&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; urlString &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://pixabay.com/api/?key=107764-f19c20d5ca4d545d9b0a09de3&amp;amp;q=&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token delimiter variable&quot;&gt;\(&lt;/span&gt;searchTerm&lt;span class=&quot;token delimiter variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&amp;amp;image_type=photo&amp;amp;pretty=true&quot;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; url &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;URL&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;string&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; urlString&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;Publishers&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;Future&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; resolver &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt;
+
+        &lt;span class=&quot;token builtin&quot;&gt;URLSession&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;shared&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;dataTask&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;with&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; url&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; data&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; error &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;guard&lt;/span&gt; error &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;nil&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;resolver&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;Result&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;failure&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;error&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+            &lt;span class=&quot;token keyword&quot;&gt;guard&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; data &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; data &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;resolver&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;Result&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;failure&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;ServiceNetworkError&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;noData&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+            &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; decoder &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;JSONDecoder&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; imageData &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;try&lt;/span&gt; decoder&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;ImageListModel&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; from&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;resolver&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;Result&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;success&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;imageData&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;catch&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;resolver&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;Result&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;failure&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;error&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;resume&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;conclusion&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-label=&quot;conclusion permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;SwiftUI&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;Combine&lt;/code&gt; bring great foundations to build iOS apps with MVVM architecture. The best benifit is that you don’t have to rely on 3rd-party frameworks for your implementations. Native frameworks are always the best choices for awesome apps.&lt;/p&gt;
+&lt;p&gt;The code is open-sourced &lt;a href=&quot;https://github.com/antranapp/PixabaySwiftUICombine/&quot;&gt;on Github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a72a36351fc94856236ad96e2df8d739/8efc2/swiftui_combine_mvvm.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 216.45569620253164%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAArCAYAAAB4pah1AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFf0lEQVRIx5WW204cRxCG99nyFrnOC+QqV859rERREmTnLhIQCx+QbcmSZYyTGLBiYyyOy7IsLCx7XvZ8nD1X6quhh10MKB6p1D3dPdV/V/31T4dEn1arJbFYTM7Pz3mV8XhsdtMzOdftdiWRSMjq6qo0Gg0JMdhut+X09FSq1eoXOaTt9/uSz+dlfX3dgIWufjgajcwmP7rO+U0bhuSW56aPrm6GORCh4XAoOzs7cnR0JGdnZ2bxePyzeN5uErTm8MGDBzI7Oyv379+XO3fuyMzMjKysrAQhuP0UugaEY78/FUM+rtVq1rKRO8ptpm6ca7MQgycnJ7K7u2vZuilG1xkO6t5IDosi8fJYGt0xSRkbl+CQ53kXi0f/K3acsTcYS6UjUvNE+go41On0pNPpq9OhOuwrJ7tfZHzf83zztB+q1zva0ckWC/pKzp6Z69O2272J/ufWbHYFP1horDHc2i9JMluXaqUklUrVKqZUKmtbU/oUdaxiySqVSlIslqRcLqtVjFrMN5stSyJmxH7/KSbxREHSqTPjYzKZtFKEk7wfHx/bGPzEmHPztNlsVgaDgWU9RK46+aYMFG5Hk0KCSA5GnfJO2+v1g3HGOp2OaUCz2dS5XkAxQ5h6+lry4Ygcq2ocRCJGo8PDQ0MWDofl4ODAkEWjUeujTCBnDVVWKBQCXprDdKYmlVo74N5V8l5Xs8SLY2L0pxy+WX0hkdiuHEZjshfeMwT7+/vWbm9vG0r6tHt7ezYHWvpbW1uSyWQuY4jDZisnXrtm9TgcTu84iXhy3PWHw+nTmMPy5plkNjUmxzGLEbFzcQMFaOhHNL4OHUYMQZjL5aaT0ijWpavEHmnJkTE/NkPLrp/hXhAvFzPG3BztJUJ18vV3P8vc05eSTSUlqrvCLWJGCyIySuYZAxktBmIQwsPRaHxJ7JX1TaXMmQx0p3q9bvxyxn8C4XCc452+4yP9aYT6vHz+j0R24ipfWcsYMUmn08YvKgQE9BlLJlO2JpVK2RzIi8VikCRzuLGupD7KSqNZV2d5q1XqFsMROskYH2JujpqnnjmBQxkaqsP15T8kc/BOqo22LqrYQgSB4/MhwsBHjE06AinoefePPPYRPl6YlfDmhuQL50YPFlL4HIt3jsVRSRI/dQxHGGvYZIrYb16l5SCcV9ieFr0vAO12Jwg679DDJcoJAycAPcd1/yRzOPPDW3nzcluyuaQSOmpIHFUgOAR2tHGiAXLWQCuO7+vhhcMXHzMSjVdUGQbSV+js6AjsWhYPJuZADVKM/lQMv/rmsdy797fk8gmVoz3b2ckU8uSEghZzqFlHaRJzP8sXDiOavWzP+4Kbwuf3nsta1uPcffZYXmv8TjR+4YtSo6xoQej6oHOCyxjtxsaGMcJppCFMZMtSaxKHy6KfFIPrjDXux+T6QZafLDyTV6+XdadEIFsus6ByfeZcbBlzvwD4OOWwsB+RhqaeS4/POV+W4KH7adEy5pv/0wIpbb9/Kcr219t9tSZHb99LIpOWhHIQ9oOIFjRURiqVNuRw0FWMyzwlGcQQh5noqdQzBWm2W1LWMqICnE3WNVUxaW4eSZs68tKTn+TTygsplqqS03igLsQFZXEyRh++OXlj3v38fYQTpfd2+U+t5Y+qKC37wL9yFK2knAjwjmOMcSdjzIE0EFjka/7Xu7K19pce2dP7jX+PuSpf9BlDF13LSTCUPDgyd9Afv/9WPiw/l7xehCAwxyToHMkJgVNnzE9SKpA3nE/J17t/P0j8NKHp1zvexN3GUcf9/ZwgeJ5/t0F0QecuqhcIx/L7L7/Ju5VVSeqO0IBSWltbk0ePHsn8/Lw8fPhQFhcXZWFhQebm5mRpacmQ8gekFIkjG+L0P9L2qvYyoeqGAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Result&quot;
+        title=&quot;Result&quot;
+        src=&quot;/static/a72a36351fc94856236ad96e2df8d739/f058b/swiftui_combine_mvvm.png&quot;
+        srcset=&quot;/static/a72a36351fc94856236ad96e2df8d739/c26ae/swiftui_combine_mvvm.png 158w,
+/static/a72a36351fc94856236ad96e2df8d739/6bdcf/swiftui_combine_mvvm.png 315w,
+/static/a72a36351fc94856236ad96e2df8d739/f058b/swiftui_combine_mvvm.png 630w,
+/static/a72a36351fc94856236ad96e2df8d739/8efc2/swiftui_combine_mvvm.png 828w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Activity Indicator in SwiftUI]]></title><description><![CDATA[SwiftUI is amazing It is a declarative way to build up user interfaces for iOS apps. So that developers don’t need to decide if they want to…]]></description><link>https://antran.app/2019/swiftui_activity_indicator/</link><guid isPermaLink="false">https://antran.app/2019/swiftui_activity_indicator/</guid><pubDate>Mon, 10 Jun 2019 22:40:32 GMT</pubDate><content:encoded>&lt;h2 id=&quot;swiftui-is-amazing&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#swiftui-is-amazing&quot; aria-label=&quot;swiftui is amazing permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;SwiftUI is amazing&lt;/h2&gt;
+&lt;p&gt;It is a declarative way to build up user interfaces for iOS apps. So that developers don’t need to decide if they want to build user interfaces using code or storyboard/xib. In combination with the great SwiftUI tools supported in XCode 11, the process to develope apps for Apple’s platforms has completely changed.&lt;/p&gt;
+&lt;p&gt;You can find a lot more information about SwiftUI in many &lt;a href=&quot;https://developer.apple.com/videos/all-videos/?q=swiftui&quot;&gt;WWDC 2019 sessions dedicated to SwiftUI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can also take a look &lt;a href=&quot;https://www.hackingwithswift.com/quick-start/swiftui/migrating-from-uikit-to-swiftui&quot;&gt;here&lt;/a&gt; for list of SwiftUI Views corresponding to their UIKit counterparts.&lt;/p&gt;
+&lt;p&gt;As a new framework and the documentation is not fully completed, it is sometimes hard to do some simple tasks. One of such common tasks is showing a loading indicator while the app is doing some heavy asynchronous operations. If you follow all WWDC Videos about SwiftUI, you can’t find any sample code for showing loading indicators while for example loading images from remote sources/internet.&lt;/p&gt;
+&lt;h2 id=&quot;wrapping-uicontrols&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#wrapping-uicontrols&quot; aria-label=&quot;wrapping uicontrols permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Wrapping UIControls&lt;/h2&gt;
+&lt;p&gt;Since SwiftUI doesn’t have all equivalent &lt;code class=&quot;language-text&quot;&gt;Views&lt;/code&gt; for all &lt;code class=&quot;language-text&quot;&gt;UIControls&lt;/code&gt; from &lt;code class=&quot;language-text&quot;&gt;UIKit&lt;/code&gt;, the SwiftUI team has created great APIs so that developers can wrap any UIKit components in SwiftUI’s views. Basically the wrapper must only adopt &lt;code class=&quot;language-text&quot;&gt;UIViewRepesentable&lt;/code&gt; protocol.&lt;/p&gt;
+&lt;p&gt;The following code will wrap &lt;code class=&quot;language-text&quot;&gt;UIActivityIndicator&lt;/code&gt; into a &lt;code class=&quot;language-text&quot;&gt;ActivityIndicator&lt;/code&gt; View which can be use as a SwiftUI View.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;swift&quot;&gt;&lt;pre class=&quot;language-swift&quot;&gt;&lt;code class=&quot;language-swift&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;ActivityIndicator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;UIViewRepresentable&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;typealias&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;UIViewType&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;UIActivityIndicatorView&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; style&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;UIActivityIndicatorView&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;Style&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;makeUIView&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;context&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;UIViewRepresentableContext&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;ActivityIndicator&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;ActivityIndicator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;UIViewType&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;UIActivityIndicatorView&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;style&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; style&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;updateUIView&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;_&lt;/span&gt; uiView&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;ActivityIndicator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;UIViewType&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; context&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;UIViewRepresentableContext&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;ActivityIndicator&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        uiView&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;startAnimating&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Normally, developers don’t use &lt;code class=&quot;language-text&quot;&gt;UIActivityIndicator&lt;/code&gt; alone but also adding an &lt;code class=&quot;language-text&quot;&gt;UILabel&lt;/code&gt; to describe the context of the asynchronous operation such as: Loading, Calculating, Processing …&lt;/p&gt;
+&lt;p&gt;Since we now have &lt;code class=&quot;language-text&quot;&gt;ActivityIndicator&lt;/code&gt; as a SwiftUI View, we can easily use it and combine with other views to create a full-blown HUD (Head up Display) View&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;swift&quot;&gt;&lt;pre class=&quot;language-swift&quot;&gt;&lt;code class=&quot;language-swift&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;ActivityIndicatorView&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;Content&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;View&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;where&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;Content&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;View&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    @&lt;span class=&quot;token builtin&quot;&gt;Binding&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; isShowing&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;Bool&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; content&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;Content&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; body&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; some &lt;span class=&quot;token builtin&quot;&gt;View&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token builtin&quot;&gt;GeometryReader&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; geometry &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt;
+            &lt;span class=&quot;token function&quot;&gt;ZStack&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;alignment&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;center&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;isShowing&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                    &lt;span class=&quot;token keyword&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                    &lt;span class=&quot;token keyword&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+                        &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;disabled&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+                        &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;blur&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;radius&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+                    &lt;span class=&quot;token builtin&quot;&gt;VStack&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                        &lt;span class=&quot;token function&quot;&gt;Text&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Loading ...&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+                        &lt;span class=&quot;token function&quot;&gt;ActivityIndicator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;style&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;large&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+                    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                    &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;frame&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;width&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; geometry&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;size&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;width &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2.0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; height&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;200.0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+                    &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;Color&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;secondary&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;colorInvert&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+                    &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;foregroundColor&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;Color&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;primary&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+                    &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;cornerRadius&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+            &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;To preview it, you can use this example code:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;swift&quot;&gt;&lt;pre class=&quot;language-swift&quot;&gt;&lt;code class=&quot;language-swift&quot;&gt;#&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;DEBUG&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;ActivityIndicatorView_Previews&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;PreviewProvider&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; previews&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; some &lt;span class=&quot;token builtin&quot;&gt;View&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token function&quot;&gt;ActivityIndicatorView&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;isShowing&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;constant&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token builtin&quot;&gt;NavigationView&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;token function&quot;&gt;Text&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+                    &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;navigationBarTitle&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;Text&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;List&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; displayMode&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;large&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+#endif&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The result is quite promising:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3ff1e3a5993cc6b23fe1f7e46612ee6f/8efc2/swiftyuiview.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 216.45569620253164%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAArCAYAAAB4pah1AAAACXBIWXMAAAsTAAALEwEAmpwYAAAE40lEQVRIx5VX2U7jWBD1r/MP/QVIPM4wzfbQUo9GMOoGuhkgCYQsJhtx4qxeYjsOSWrqlFPGZhNEOtT1vXbVqdXGIP7NZjOqVqs0GAxwSev1WvDWL3s2n8+p2WzS8fExeZ5HBjaDIKBGo0HT6fRTCiEXiwX1+306OzsTYsbzB1erlSD70GvK3zJo0Du/tx56bgxQEgYoFwoFMk2TWq2WoF6v02g0evHQR2DEcUw7Ozu0vb1NX758oa2tLZEnJyfvsnzOOFWYfeDx8ZEmk0nqwkfw3KCBTbgIty3LkhvA+qOIoogcxyHXdSXjwtD3fYkZJFh+FMtlIlGLUA5yRhgu2Mojb6xEhmH8aeC55Flm6HkRM4u4ykOW83cQvXkGHa4bCozVckW9QUBTN6KAKz0IQsFsFrBFGJlJJ4VhJHvoBkjsI0QA4rhkPYBBnKSH3pgm0xm5HFxkGQF2nKkEezwep3toTawhAdd15B4YSQsbWY+Z8jKKafG4eCcBS5HIpEokAgnBtZaagSpy7+7J7w9oxNaR7clGgp1t2zKFkr2hrIfDoZwDuIbbaWGjGBFMZGu9TuKg9LPId0QyRJQ5oIUuddjo1Gg4smk0fLLa6bSp233g3m7K2rK6Itvtlshez5L74AHmYBpDWI4il+J5yJtrsdZuN+jursRD95YqlZscdM80KxJHKMoxhMKw55DHmR6NRxIfKCsU/qNS6SqVNzfXVCxeyrVKDFawBMNcDEM/pJizvFwtJXP39zVRCiaQt7cFQZYx1kn9JdlPGa5446+/z+i6XCPPTequUrkVFmD2/fs3+vr1D8afdHr6LzO9Ss9su/96lhsdi0tmKpbQHaZZpXK5mLK7vr6gy8vfssaeAh0EjzSWmxiuqV5p0oBj6PuedEStVhYG6urFxRmdn/+UNWKpGHPMX3QKGD50uGRGLkXzSAJcr9/Jw2CpSrLXusa96Ht0C2IpCrlSqGtekWO3KIzmfMOMFVZS99R1XWcxnU5kSCA5Seutk9a7KV2TbT2Qz9TR9HC5WEzKBQnQJJRKl+k1DEIhWL5w2aw5NOh7PBySAONGiw30+5Z0CKRt97g7ugKcDYcDGWlglx8OTPH3jxaZ1R4nZMqxHG/GVwIMhQlXAJg4Mt6SsaajDa2qDMVlMCx3HLJHAVvhIt0UanZk6QDIjjN4osgXNivcOSjT+a8GM5twoQ7fHF9oSx1fOsK09TCl0hj2eaS7ixgzidvvY+9jZZ0dDEkMeeO0ekemz/HZWAYzlToAlCEYK0MA54hnrvXGjk9BFL+w/Bnkxle5VOFiNqVckGWw0ZcT2CFWqE/I7PjXmL4YsL49oIj7GBlebJo9i/iVPc2u4imGrHBgtmnc7PC7metLXo/u5jXpClOswSL7GtVKAEtMnVzruYMxhY5H8ziW8YVmRwcAuAay17rW+/S7JmVYv/1J3WaFZkEowxKVrxIssQYLSDBVieyCLYykDGXA1nk49DvSm9rsqhTXuqefHmoMwBlYpgyXrLV4/oOs1j27vEjdUZfURXVPQwDGqhRnOYWn/3yjdr1MHs+2p28b591vGz3HGsozZbOmZouzzDe+1vTZ8nheSmAG5N4p+HNx/ota/N8QrKEMEJdisUh7e3u0v79PBwcHdHR0RIeHh7S7u8tvv1Nhp+2XLez/ASbTz+wnj2TUAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Result&quot;
+        title=&quot;Result&quot;
+        src=&quot;/static/3ff1e3a5993cc6b23fe1f7e46612ee6f/f058b/swiftyuiview.png&quot;
+        srcset=&quot;/static/3ff1e3a5993cc6b23fe1f7e46612ee6f/c26ae/swiftyuiview.png 158w,
+/static/3ff1e3a5993cc6b23fe1f7e46612ee6f/6bdcf/swiftyuiview.png 315w,
+/static/3ff1e3a5993cc6b23fe1f7e46612ee6f/f058b/swiftyuiview.png 630w,
+/static/3ff1e3a5993cc6b23fe1f7e46612ee6f/8efc2/swiftyuiview.png 828w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Publishing a blog using Swift for Linux (Ubuntu 18.04)]]></title><description><![CDATA[Publish is a static site generator built with Swift, created by the famous John Sundell to run his blog. This tutorial is going to show you…]]></description><link>https://antran.app/2019/swift_publish/</link><guid isPermaLink="false">https://antran.app/2019/swift_publish/</guid><pubDate>Fri, 19 Apr 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/JohnSundell/Publish&quot;&gt;Publish&lt;/a&gt; is a static site generator built with Swift, created by the famous &lt;a href=&quot;swiftbysundell.com&quot;&gt;John Sundell&lt;/a&gt; to run his blog.&lt;/p&gt;
+&lt;p&gt;This tutorial is going to show you how to install Publish on a Linux machine running Ubuntu 18.04 LTS and how to publish the generated site to Github Pages and connect it with a custom domain.&lt;/p&gt;
+&lt;p&gt;As you might guess, this blog post is generated by &lt;strong&gt;Publish&lt;/strong&gt;, and hosted on Github Pages under the domain &lt;a href=&quot;https://swiftvietnam.com&quot;&gt;https://swiftvietnam.com&lt;/a&gt;. &lt;strong&gt;The project is open-sourced on Github:&lt;/strong&gt; &lt;a href=&quot;https://github.com/antranapp/swiftvietnam&quot;&gt;https://github.com/antranapp/swiftvietnam&lt;/a&gt; &lt;/p&gt;
+&lt;h2 id=&quot;1-install-swift-522-on-ubuntu-1804-lts&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-install-swift-522-on-ubuntu-1804-lts&quot; aria-label=&quot;1 install swift 522 on ubuntu 1804 lts permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Install Swift 5.2.2 on Ubuntu 18.04 LTS&lt;/h2&gt;
+&lt;p&gt;The following steps show how to install the currently latest version of Swift 5.2.2 on Ubuntu 18.04 LTS. Since Swift supports other Linux distributions too, you should be able to install Swift on most of the Linux systems.&lt;/p&gt;
+&lt;h3 id=&quot;step-1-install-dependencies&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#step-1-install-dependencies&quot; aria-label=&quot;step 1 install dependencies permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Step 1: Install dependencies&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;clang&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;libicu-dev&lt;/code&gt; are required as dependencies for running Swift on Linux machines&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;clang&lt;/code&gt; provides tooling infrastructure for programming languages in the C programming languages. It acts as a compiler.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;libicu-dev&lt;/code&gt; provides full-featured Unicode and locale support. This allows for Unicode to be used in our code.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We can install those dependencies by running the following code:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; clang libicu-dev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;step-2-download-the-swift-binary&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#step-2-download-the-swift-binary&quot; aria-label=&quot;step 2 download the swift binary permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Step 2: Download the Swift binary&lt;/h3&gt;
+&lt;p&gt;Apple releases many pre-compiled binary builds for Swift on the official &lt;a href=&quot;https://swift.org/download&quot;&gt;Swift website&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;We are going to download the build for Ubuntu 18.04 LTS using the following commands and unpack it into &lt;code class=&quot;language-text&quot;&gt;swift&lt;/code&gt; folder:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; ~/swift
+&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; ~/swift
+&lt;span class=&quot;token function&quot;&gt;wget&lt;/span&gt; https://swift.org/builds/swift-5.2.2-release/ubuntu1804/swift-5.2.2-RELEASE/swift-5.2.2-RELEASE-ubuntu18.04.tar.gz
+&lt;span class=&quot;token function&quot;&gt;tar&lt;/span&gt; -xvzf swift-5.2.2-RELEASE*&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;step-3-add-swift-binary-to-path&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#step-3-add-swift-binary-to-path&quot; aria-label=&quot;step 3 add swift binary to path permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Step 3: Add swift binary to PATH&lt;/h3&gt;
+&lt;p&gt;To execute &lt;code class=&quot;language-text&quot;&gt;swift&lt;/code&gt; command from anywhere, we need to add the path to the &lt;code class=&quot;language-text&quot;&gt;swift&lt;/code&gt; binary into our PATH environment variable.&lt;/p&gt;
+&lt;p&gt;We can find the path to the swift binary using &lt;code class=&quot;language-text&quot;&gt;pwd&lt;/code&gt; command:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; ~/swift/swift-5.2.2-RELEASE-ubuntu18.04/usr/bin
+&lt;span class=&quot;token builtin class-name&quot;&gt;pwd&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Copy the output of the above command and add it into our &lt;code class=&quot;language-text&quot;&gt;PATH&lt;/code&gt;, ideally in &lt;code class=&quot;language-text&quot;&gt;.bashrc&lt;/code&gt; file to keep the change permanently.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;&lt;span class=&quot;token environment constant&quot;&gt;PATH&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token environment constant&quot;&gt;$PATH&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token environment constant&quot;&gt;$HOME&lt;/span&gt;/bin/swift-5.2.2-RELEASE-ubuntu18.04/usr/bin&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Remember to restart the session or run &lt;code class=&quot;language-text&quot;&gt;source ~/.bashrc&lt;/code&gt; before continue.&lt;/p&gt;
+&lt;h3 id=&quot;step-4-testing&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#step-4-testing&quot; aria-label=&quot;step 4 testing permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Step 4: Testing&lt;/h3&gt;
+&lt;p&gt;Now you test if you can call &lt;code class=&quot;language-text&quot;&gt;swift&lt;/code&gt; command.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;swift -v&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The output should be something like:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;Swift version &lt;span class=&quot;token number&quot;&gt;5.2&lt;/span&gt;.2 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;swift-5.2.2-RELEASE&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Target: x86_64-unknown-linux-gnu&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;2-install-visual-studio-code-plugin-optional&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-install-visual-studio-code-plugin-optional&quot; aria-label=&quot;2 install visual studio code plugin optional permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. Install Visual Studio Code plugin (optional)&lt;/h2&gt;
+&lt;p&gt;Since Xcode is not available for Linux system, and we are going to build our website using Swift, it would be good if we have some kind of IDE to aid the process.&lt;/p&gt;
+&lt;p&gt;Currently, we have 3 options for swift IDEs:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Option 1&lt;/strong&gt;: Using any text editors or IDEs to edit the source code and run &lt;code class=&quot;language-text&quot;&gt;swift build&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;publish generate&lt;/code&gt; from command line to build our project. Probably, we will not have any code highlighting, source code references, auto-completion and IDE integrations.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Option 2&lt;/strong&gt;: &lt;a href=&quot;https://www.jetbrains.com/clion/&quot;&gt;CLion&lt;/a&gt; from JetBrains: It is actually a C/C++ IDE but it has a plugin to support Swift source code. All JetBrains IDEs are excellent for sure, but it is not free.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Option 3&lt;/strong&gt;: Using Visual Studio Code together with SourceKit-LSP to have a good enough IDE to start writing and debugging Swift code.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I’m going to show you how to do the &lt;strong&gt;option 3&lt;/strong&gt;: integration of SourceKit-LSP in Visual Studio Code.&lt;/p&gt;
+&lt;h3 id=&quot;step-1-build-sourcekit-lsp&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#step-1-build-sourcekit-lsp&quot; aria-label=&quot;step 1 build sourcekit lsp permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Step 1: Build SourceKit-LSP&lt;/h3&gt;
+&lt;p&gt;Apple announced the SourceKit-LSP in August 2018 and released the open-source project in November 2018. As written in &lt;a href=&quot;https://github.com/apple/sourcekit-lsp&quot;&gt;its official repository&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;SourceKit-LSP is an implementation of the &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/&quot;&gt;Language Server Protocol&lt;/a&gt; (LSP) for Swift and C-based languages. It provides features like code-completion and jump-to-definition to editors that support LSP. SourceKit-LSP is built on top of &lt;code class=&quot;language-text&quot;&gt;sourcekitd&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;clangd&lt;/code&gt; for high-fidelity language support, and provides a powerful source code index as well as cross-language support. SourceKit-LSP supports projects that use the Swift Package Manager.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;We are going to build &lt;code class=&quot;language-text&quot;&gt;SourceKit-LSP&lt;/code&gt; from its source, and copy the built binary to &lt;code class=&quot;language-text&quot;&gt;/usr/local/bin&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone https://github.com/apple/sourcekit-lsp.git
+&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; sourcekit-lsp
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; libsqlite3-dev libncurses5-dev
+swift build -Xcxx -I&lt;span class=&quot;token variable&quot;&gt;${&lt;span class=&quot;token environment constant&quot;&gt;HOME&lt;/span&gt;}&lt;/span&gt;/bin/swift-5.2.2-RELEASE-ubuntu18.04/usr/lib/swift -Xcxx -I&lt;span class=&quot;token variable&quot;&gt;${&lt;span class=&quot;token environment constant&quot;&gt;HOME&lt;/span&gt;}&lt;/span&gt;/bin/swift-5.2.2-RELEASE-ubuntu18.04/usr/lib/swift/Block
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mv&lt;/span&gt; .build/x86_64-unknown-linux-gnu/debug/sourcekit-lsp /usr/local/bin&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Note:&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You need to use the correct path to your &lt;code class=&quot;language-text&quot;&gt;swift&lt;/code&gt; binary in the command. I used mine here for easy understanding.&lt;/li&gt;
+&lt;li&gt;You might need to install additional dependencies depending on what packages are available on your machines.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;step-2-build-vscode-extension&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#step-2-build-vscode-extension&quot; aria-label=&quot;step 2 build vscode extension permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Step 2: Build VSCode extension&lt;/h3&gt;
+&lt;p&gt;If you don’t have Visual Studio Code installed yet, please follow &lt;a href=&quot;https://code.visualstudio.com/docs/setup/linux&quot;&gt;this instruction&lt;/a&gt; to install it. The most simple way is to use &lt;code class=&quot;language-text&quot;&gt;snap&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; snap &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; --classic code&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;We also need &lt;code class=&quot;language-text&quot;&gt;node&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;npm&lt;/code&gt; to build our custom Visual Studio Code extension. The installation instruction for Ubuntu can be found &lt;a href=&quot;https://github.com/nodesource/distributions/blob/master/README.md#debinstall&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; -sL https://deb.nodesource.com/setup_12.x &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; -E &lt;span class=&quot;token function&quot;&gt;bash&lt;/span&gt; -
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -y nodejs&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Now, inside the &lt;code class=&quot;language-text&quot;&gt;sourcekit-lsp&lt;/code&gt; folder, run the following commands to create and install the extension for Visual Studio Code.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; Editors/vscode
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; run createDevPackage 
+code --install-extension out/sourcekit-lsp-vscode-dev.vsix&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;3-install-publish&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-install-publish&quot; aria-label=&quot;3 install publish permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. Install Publish&lt;/h2&gt;
+&lt;p&gt;We will now install &lt;code class=&quot;language-text&quot;&gt;Publish&lt;/code&gt; from its &lt;a href=&quot;https://github.com/JohnSundell/Publish&quot;&gt;source code&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone https://github.com/JohnSundell/Publish.git
+&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; Publish
+&lt;span class=&quot;token function&quot;&gt;make&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;If you get permission errors like this:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; .build/release/publish-cli /usr/local/bin/publish
+install: cannot create regular &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;/usr/local/bin/publish&apos;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; Permission denied
+Makefile:2: recipe &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; target &lt;span class=&quot;token string&quot;&gt;&apos;install&apos;&lt;/span&gt; failed&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You should run &lt;code class=&quot;language-text&quot;&gt;install&lt;/code&gt; command with &lt;code class=&quot;language-text&quot;&gt;sudo&lt;/code&gt; instead:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; .build/release/publish-cli /usr/local/bin/publish&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Now if you run &lt;code class=&quot;language-text&quot;&gt;publish&lt;/code&gt; from the command line. You will see something like this:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/429d9053fd0976ce8af514fd7530286f/27524/publish_installed_successfully.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 49.36708860759494%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAABo0lEQVQoz1WSWZqjMAyEOclMT8IaaDA2YMxiloSk+/4HqpEMpGce6pNs8C+pbM+fLKJtQjAa+KbBZTAo7YjHc0MhakilkRYCYRkiViEiSSoPqYD2A8pJkvIihFf1BNAFykahGVqIWkEIAaU1pvWBQlX4dfHxcQ3x4Z+KXPwTxLiEyX/yejujtwvMMGGcVzSmR8d704JunND2IyptoPuB8gG16aCaFnXbIbxluEQxrv/IM4PFMC87rBvcQd7jQqKqUdaaut0B3G0mJCQBq9Ygl4q6YlByiICiatyBXFbvw7e8QBDf3Fi/r8FbP2seN3I6YSfY4y4kgYTaI4+TidJdRJzlTrdcIPksnNKidGuGMYR1gjn3uH0eVzt/+t2rw4Z+mp2P7BvbwJHXnZ2cBVGawU9SV/TdIVdTZLqlG53vGx6vbyyPDZr8tMsd9+eXi3ZZKX858LI96b8vmKOYbPQPMCE6A1ncFUPtese6vRyE91aCMoC/jbTHQC7COZ9nT98jx+mnu5CzWkWjaHoq3biPyKNxVwzg58M52xLRk3HP5ujsjH8B+CU+BKBrFdAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;preview&quot;
+        title=&quot;preview&quot;
+        src=&quot;/static/429d9053fd0976ce8af514fd7530286f/f058b/publish_installed_successfully.png&quot;
+        srcset=&quot;/static/429d9053fd0976ce8af514fd7530286f/c26ae/publish_installed_successfully.png 158w,
+/static/429d9053fd0976ce8af514fd7530286f/6bdcf/publish_installed_successfully.png 315w,
+/static/429d9053fd0976ce8af514fd7530286f/f058b/publish_installed_successfully.png 630w,
+/static/429d9053fd0976ce8af514fd7530286f/27524/publish_installed_successfully.png 646w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;4-create-a-new-website&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-create-a-new-website&quot; aria-label=&quot;4 create a new website permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. Create a new website&lt;/h2&gt;
+&lt;h3 id=&quot;step-1-create-a-new-project&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#step-1-create-a-new-project&quot; aria-label=&quot;step 1 create a new project permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Step 1: Create a new project&lt;/h3&gt;
+&lt;p&gt;Now we can use &lt;code class=&quot;language-text&quot;&gt;publish&lt;/code&gt; command to create a new website:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; SwiftVietnam
+publish new&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Open the newly created folder in Visual Studio Code:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; SwiftVietnam
+code &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;To connect to the Swift Toolchain and SourceKit-LSP with Visual Studio Code, we need to create some setting files under &lt;code class=&quot;language-text&quot;&gt;.vscode&lt;/code&gt; in our workspace: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;settings.json&lt;/strong&gt;: set the path to the swift tool chain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;sourcekit-lsp.toolchainPath&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;$HOME/bin/swift-5.2.2-RELEASE-ubuntu18.04/usr/bin&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;With this, we will be able to see class references for our Swift code:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/62df854cfccef2a13d55845e91b63bae/e84a7/publish_vscode.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.32911392405063%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACDklEQVQoz1VS224TMRTcr2hVwnrXa6+9N+/9kjQkIW2REBKCF8Qz//8Rw9hNVXgYje1jz7mMo8fLZ8z7R4zbPmDaDhjXDf2yYjuecDidsScvh2O457kdZzT9iGaYAhzRTgu6eUF0uVxw9o+WDWM3YPCXGoe6LFHXDVzXo6wqlDX3TcNYzfMSRVkhNzmU1pBSIssyaK6jaZpx/XTCE0VXZuhvAkoqCjioooCpSlhXwbUNuqFD7WrY0sIWFsYaJEmC3W6HTGWIxnHE0LaoWJHSObMQSiNNmdUWaPse27pif9hYHSulSMMEDass+UZrw7sp4jh+rdALTvOIju0qCuW5CcK+DSkzDOsB2+WK4/mChR2EcVR1YGNsEPlPcBgGTBR1nFdOIS+Y3wQTmSKxGolRyHIJWzHGvdQppGIsTSCECPCCSilEHVs60tHHkWZUDpVHWYes2lr0vUPbsHWK1YWGK3NUFH0T8Xhbe2OijvPzM1r5ZUrvHCv0c/SCeVFjnmd0rqFR9esoEkETKHCr7N8KPUcdXTUcvi2q21ewfGggMwXNVjWrUURe8IsYHVxP6WaqJNJMQtDhWLzCr6Oef0unAjnnEViSkxjJh3tk8QMy8RBYkSVZil2IiYc7xDe8rQXPo/nbdxx+/oH78gsdMX/9DXP+gbv+ivv+ifyO+wCeD08BYn6BWF7wcXpGPD8H/guNgEZK13EfFgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;preview&quot;
+        title=&quot;preview&quot;
+        src=&quot;/static/62df854cfccef2a13d55845e91b63bae/f058b/publish_vscode.png&quot;
+        srcset=&quot;/static/62df854cfccef2a13d55845e91b63bae/c26ae/publish_vscode.png 158w,
+/static/62df854cfccef2a13d55845e91b63bae/6bdcf/publish_vscode.png 315w,
+/static/62df854cfccef2a13d55845e91b63bae/f058b/publish_vscode.png 630w,
+/static/62df854cfccef2a13d55845e91b63bae/40601/publish_vscode.png 945w,
+/static/62df854cfccef2a13d55845e91b63bae/78612/publish_vscode.png 1260w,
+/static/62df854cfccef2a13d55845e91b63bae/e84a7/publish_vscode.png 1317w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;tasks.json&lt;/strong&gt;: set the configuration so that we can run the project directly from VSCode by pressing &lt;code class=&quot;language-text&quot;&gt;F5&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;version&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;2.0.0&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;tasks&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token property&quot;&gt;&quot;label&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;swift-build&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 
+      &lt;span class=&quot;token property&quot;&gt;&quot;type&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;shell&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 
+      &lt;span class=&quot;token property&quot;&gt;&quot;command&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;swift build&quot;&lt;/span&gt; 
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;We can also configure the debugger for our Swift project by installing &lt;code class=&quot;language-text&quot;&gt;CodeLLDB&lt;/code&gt; extension and creating &lt;code class=&quot;language-text&quot;&gt;launch.json&lt;/code&gt; in &lt;code class=&quot;language-text&quot;&gt;.vscode&lt;/code&gt; folder:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;launch.json&lt;/strong&gt;: &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;version&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;0.2.0&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;configurations&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token property&quot;&gt;&quot;type&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;lldb&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 
+      &lt;span class=&quot;token property&quot;&gt;&quot;request&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;launch&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token property&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Debug&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token property&quot;&gt;&quot;program&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;${workspaceFolder}/.build/debug/SwiftVietnam&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 
+      &lt;span class=&quot;token property&quot;&gt;&quot;args&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token property&quot;&gt;&quot;cwd&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;${workspaceFolder}&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token property&quot;&gt;&quot;preLaunchTask&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;swift-build&quot;&lt;/span&gt; 
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Now we can use running and debugging capabilities of VSCode for our project: &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 244px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1f592139a13dd249887b89a46aa9253b/0cba8/publish_debug.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 22.78481012658228%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA6klEQVQY012O206DQBRF5xcUMEDRWB86TCWRucBcKG1qG6N98QN89f9/YXsYSGP6sLJXds6ZOUxZj4ib0kW0Czc+z1z7aZZcGrfsBrz1HpKcNU0DYwy0VjBUmt5CSRnT2BBddz206eZ+eljP88N7gOnIlcLBWXSUrG1bjOOIQMXu4xu70xeMkvDjMRJ9f4Id9rQoEQ5n9HThdMTl55MeHeDps9/LGUdvwTYbDs4FwVHXPObs9dWF2BIidmL730V0Qd42rzHZ+qXE89MDytUKeZ6jqh6JCkVRLJTI0hRJkiBd8tYT8rt76rIMf1xVmVqCWz9wAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;debugging&quot;
+        title=&quot;debugging&quot;
+        src=&quot;/static/1f592139a13dd249887b89a46aa9253b/0cba8/publish_debug.png&quot;
+        srcset=&quot;/static/1f592139a13dd249887b89a46aa9253b/c26ae/publish_debug.png 158w,
+/static/1f592139a13dd249887b89a46aa9253b/0cba8/publish_debug.png 244w&quot;
+        sizes=&quot;(max-width: 244px) 100vw, 244px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;5-test-and-publish-to-github-pages&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-test-and-publish-to-github-pages&quot; aria-label=&quot;5 test and publish to github pages permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5. Test and publish to Github Pages&lt;/h2&gt;
+&lt;h3 id=&quot;step-1-testing-locally&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#step-1-testing-locally&quot; aria-label=&quot;step 1 testing locally permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Step 1: Testing locally&lt;/h3&gt;
+&lt;p&gt;To test the site locally, we can run:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;publish run&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The generated website will be created in the &lt;code class=&quot;language-text&quot;&gt;Output&lt;/code&gt; folder. And a local server will be started at &lt;code class=&quot;language-text&quot;&gt;http://localhost:8000&lt;/code&gt;. We can now just open that address in our browser to review the site.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c815c0d909cd4569550ef05336d550b0/19a6b/publish_new.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 63.291139240506325%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB60lEQVQ4y42Ry2/TQBDGN3GSnvK8xMolT0Pi2I5TPzCWwY84qQIILqhCFRV/cQ89AipXLFBzSBDigHeYXZzKoSJw+OmbXc98Mzsmj4P4xg3iL264TGzPTzTDSlw/TJ5EiyRYrpKnizgJV2d4jvnZj5fIKvHCRaIaJs9XDeszxl8tM3hP3ly++35+cQmvL97C4mwNluOC7XqgmzbIsznImg4Ppio8VFSYYDxld4iin8LpIwe8MILl+jmsX76CF8/Ot6RYLG4RKBQKKSGEolJBELiyc+XkhHY6HdoWRVoul/ldHqylpVIprVQqIJSEW1Kr1XYI1Ot1igCLszM0Gg1otVogiiK0221oNpv8Pk+WT6vVKtMNkSRpNxwOQZZlGoYhBIjruhD4Po99VNu2oN/vw2g0+ht0JElMNwQTdyx5MBhQXddhPp9zJpMJsEbS70RueASa6Yag0S7rTvdmmqZBr9djTSBr9i/uG+I01PM8iKIIHMeB2Wx2N+0x2KtYbdb4cELTNLkZM2Z7NE0D2N0xDMPgtfcM2djT6RRURQGmCup4PGY/6wC22zwsZ/9kbojBNttVintLu90u1z34nBQbcHCSg297sPZn5nHLJvxxbPH5b/+R940ZXiM3yAfkYx5MutN8/GdeVvsJufoFnxZwYFXl8RIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;preview&quot;
+        title=&quot;preview&quot;
+        src=&quot;/static/c815c0d909cd4569550ef05336d550b0/f058b/publish_new.png&quot;
+        srcset=&quot;/static/c815c0d909cd4569550ef05336d550b0/c26ae/publish_new.png 158w,
+/static/c815c0d909cd4569550ef05336d550b0/6bdcf/publish_new.png 315w,
+/static/c815c0d909cd4569550ef05336d550b0/f058b/publish_new.png 630w,
+/static/c815c0d909cd4569550ef05336d550b0/40601/publish_new.png 945w,
+/static/c815c0d909cd4569550ef05336d550b0/19a6b/publish_new.png 1191w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;step-2-setting-up-a-custom-domain&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#step-2-setting-up-a-custom-domain&quot; aria-label=&quot;step 2 setting up a custom domain permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Step 2: Setting up a custom domain&lt;/h3&gt;
+&lt;p&gt;If you want to use a custom domain with your Github Pages, please follow the &lt;a href=&quot;https://help.github.com/en/github/working-with-github-pages/configuring-a-custom-domain-for-your-github-pages-site&quot;&gt;official instruction&lt;/a&gt; from Github to customize the domain name. &lt;/p&gt;
+&lt;h3 id=&quot;step-3-push-output-folder-to-remote&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#step-3-push-output-folder-to-remote&quot; aria-label=&quot;step 3 push output folder to remote permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Step 3: Push Output folder to remote&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Publish&lt;/code&gt; has an extensible &lt;code class=&quot;language-text&quot;&gt;DeploymentMethod&lt;/code&gt; API which can be used to implement different deployment methods. Unfortunately, deployment to Github Pages is not a built-in feature. At the time of writing, there is a pull request which implements GithubPages Deploymentmethod, but it is still being developed.&lt;/p&gt;
+&lt;p&gt;Since publishing to GitHub pages is quite easy, we can alternatively write some shell scripts to push code from the &lt;code class=&quot;language-text&quot;&gt;Output&lt;/code&gt; folder to the &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt; branch of our repository and configure the repository to serve our static website from the &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt; branch.&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;language-text&quot;&gt;deploy.sh&lt;/code&gt; script looks like following:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/sh&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;## Rebuild the website&lt;/span&gt;
+publish generate
+
+&lt;span class=&quot;token comment&quot;&gt;## Add custom domain CNAME&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;swiftvietnam.com&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; Output/CNAME
+
+&lt;span class=&quot;token comment&quot;&gt;## Add files to git&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit -m &lt;span class=&quot;token string&quot;&gt;&quot;Update production&quot;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push origin master
+
+&lt;span class=&quot;token comment&quot;&gt;## Deploy to gh-pages&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;--&gt; Deploy to live server --&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; subtree push --prefix Output origin gh-pages&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;6-conclusion&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#6-conclusion&quot; aria-label=&quot;6 conclusion permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;6. Conclusion&lt;/h2&gt;
+&lt;p&gt;In this tutorial, we have created a foundation for our static-generated website by finishing many configuration tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Created a complete swift development environment on Ubuntu 18.04 LTS with Visual Studio Code and SourceKit-LSP&lt;/li&gt;
+&lt;li&gt;Installed &lt;code class=&quot;language-text&quot;&gt;Publish&lt;/code&gt; tool to create and publish our website&lt;/li&gt;
+&lt;li&gt;Tested and published the first version of our website to Github Pages, running on a custom domain.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In future posts, we will investigate how to use &lt;a href=&quot;https://github.com/JohnSundell/Plot&quot;&gt;Plot&lt;/a&gt; to change the UI, to use &lt;a href=&quot;https://github.com/JohnSundell/Splash&quot;&gt;Splash&lt;/a&gt; for syntax highlighting for Swift and to create different sections for our website.&lt;/p&gt;
+&lt;p&gt;Further in-depth resources and explanations can be found in the following links:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/antranapp/swiftvietnam&quot;&gt;SwiftVietnam’s Github repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.swiftbysundell.com/videos/static-site-generation-in-swift/&quot;&gt;(Video) Static site generation in Swift&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/JohnSundell/Publish&quot;&gt;Publish’s Github repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://swift.org/download/#using-downloads&quot;&gt;Swift installation instruction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/apple/sourcekit-lsp&quot;&gt;SourceKit-LSP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;//www.raywenderlich.com/8325890-a-complete-guide-to-swift-development-on-linux&quot;&gt;A Complete Guide to Swift Development on Linux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item></channel></rss>

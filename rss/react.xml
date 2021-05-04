@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[React by An Tran]]></title><description><![CDATA[A personal space to share what I am learning and doing.]]></description><link>https://antran.app</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 03 May 2021 21:55:16 GMT</lastBuildDate><item><title><![CDATA[Starting a technical blog in 2021 - How to write a blog? (Part 2)]]></title><description><![CDATA[Photo by Daniel Thomas on Unsplash]]></description><link>https://antran.app/2021/minimal-technical-blogging-part4/</link><guid isPermaLink="false">https://antran.app/2021/minimal-technical-blogging-part4/</guid><pubDate>Wed, 14 Apr 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2ae5d368521a05798b181b7d714fb340/e5bc7/banner.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.45569620253164%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBP/EABUBAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAAFGyJRKosqP/8QAGxAAAQQDAAAAAAAAAAAAAAAAAgABAxIEETL/2gAIAQEAAQUCDMIUUt2ge0XKAqIH0P8A/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAEDAQE/Aa1//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AYx//8QAGxABAQACAwEAAAAAAAAAAAAAAQAiMQIDEXH/2gAIAQEABj8Cyyk6+IfYXd5agv/EABsQAQADAQADAAAAAAAAAAAAAAEAESFBMVFh/9oACAEBAAE/Ic645tQmIq+GVd+o6RV+4IxL1WUJ4Cf/2gAMAwEAAgADAAAAEGM//8QAFhEAAwAAAAAAAAAAAAAAAAAAARAR/9oACAEDAQE/ELC//8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QAx//xAAbEAEBAQEAAwEAAAAAAAAAAAABESEAMUGBof/aAAgBAQABPxAq/jpp9zexfWaXxZmfemqaEhsXeUcqJOnC6I9i/nQ7AB3/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;writing blog&quot;
+        title=&quot;writing blog&quot;
+        src=&quot;/static/2ae5d368521a05798b181b7d714fb340/828fb/banner.jpg&quot;
+        srcset=&quot;/static/2ae5d368521a05798b181b7d714fb340/ff44c/banner.jpg 158w,
+/static/2ae5d368521a05798b181b7d714fb340/a6688/banner.jpg 315w,
+/static/2ae5d368521a05798b181b7d714fb340/828fb/banner.jpg 630w,
+/static/2ae5d368521a05798b181b7d714fb340/0ede0/banner.jpg 945w,
+/static/2ae5d368521a05798b181b7d714fb340/3ac88/banner.jpg 1260w,
+/static/2ae5d368521a05798b181b7d714fb340/e5bc7/banner.jpg 5184w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@dtbosse&quot;&gt;Daniel Thomas&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/blogging&quot;&gt;Unsplash&lt;/a&gt;&lt;sub&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Starting a technical blog in 2021 - Gatsby + Github Pages (Part 3)]]></title><description><![CDATA[In the previous articles, I have discussed why you should start a technical blog and which options you have to kickstart such a blog. There…]]></description><link>https://antran.app/2021/minimal-technical-blogging-part3/</link><guid isPermaLink="false">https://antran.app/2021/minimal-technical-blogging-part3/</guid><pubDate>Mon, 12 Apr 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a16144cb1b5fbc734b9c8110fd8ec538/4b319/banner.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.45569620253164%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABQABBP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAFjAe5EYOP/xAAYEAEBAQEBAAAAAAAAAAAAAAABAgADEv/aAAgBAQABBQJTegkrc+ibypfW5r//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAbEAACAgMBAAAAAAAAAAAAAAAAAREhAhAxkf/aAAgBAQAGPwKC9Lrsc5SiK8P/xAAYEAEAAwEAAAAAAAAAAAAAAAABABEhQf/aAAgBAQABPyGs21JtKqICXNzp0wtDpjKFUBH/2gAMAwEAAgADAAAAEA8//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHBABAQACAgMAAAAAAAAAAAAAAREAITFBYXGh/9oACAEBAAE/EHz6YfMhiitcB6b2RuTdth4/HGbhLBGhLKTJ6iBek95//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;writing blog&quot;
+        title=&quot;writing blog&quot;
+        src=&quot;/static/a16144cb1b5fbc734b9c8110fd8ec538/828fb/banner.jpg&quot;
+        srcset=&quot;/static/a16144cb1b5fbc734b9c8110fd8ec538/ff44c/banner.jpg 158w,
+/static/a16144cb1b5fbc734b9c8110fd8ec538/a6688/banner.jpg 315w,
+/static/a16144cb1b5fbc734b9c8110fd8ec538/828fb/banner.jpg 630w,
+/static/a16144cb1b5fbc734b9c8110fd8ec538/0ede0/banner.jpg 945w,
+/static/a16144cb1b5fbc734b9c8110fd8ec538/3ac88/banner.jpg 1260w,
+/static/a16144cb1b5fbc734b9c8110fd8ec538/4b319/banner.jpg 5472w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In the previous articles, I have discussed &lt;a href=&quot;https://antran.app/2021/minimal-technical-blogging-part1/&quot;&gt;why you should start a technical blog&lt;/a&gt; and &lt;a href=&quot;https://antran.app/2021/minimal-technical-blogging-part2/&quot;&gt;which options you have to kickstart such a blog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;There are pros and cons to each option. Depending on how much experience you have had in blogging, how much time you want to invest in setting up/maintaining the infrastructure for your blog as well as how much money you are willing to pay for hosting, you should choose a appropriated approach.&lt;/p&gt;
+&lt;p&gt;Since I’m owning &lt;a href=&quot;https://antran.app&quot;&gt;my desired custom domain&lt;/a&gt; already, and as a minimalist, I just want to have a very minimal, low-cost setup to start writing, I have opted in the approach of using a static site generator to generate static pages for my blog and I’m hosting it using Github Pages which is free for both hosting and custom domain support.&lt;/p&gt;
+&lt;p&gt;In this article, I will give you a walk-through of my setup and show you how you can set up a similar blog in 2 minutes.&lt;/p&gt;
+&lt;h2 id=&quot;what-is-a-static-site-generator&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#what-is-a-static-site-generator&quot; aria-label=&quot;what is a static site generator permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What is a Static Site Generator?&lt;/h2&gt;
+&lt;p&gt;I copied the definition shamelessly from &lt;a href=&quot;https://www.gatsbyjs.com/docs/glossary/static-site-generator/&quot;&gt;the Gatsby’s website&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A static site generator is a software application that creates HTML pages from &gt; templates or components and a given content source. Most static site generators, including Gatsby, accept Markdown-formatted text files as a source, although Gatsby is not limited to Markdown.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.gatsbyjs.com/&quot;&gt;Gatsby&lt;/a&gt; is one of the many &lt;a href=&quot;https://jamstack.org/generators/&quot;&gt;Static Site Generators&lt;/a&gt; available.&lt;/p&gt;
+&lt;p&gt;Although GitHub Pages supports &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, another popular static site generator, natively and has a lot of built-in workflows to support it, I have chosen Gatbyjs because of the quite obvious reason:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jekyll is written in Ruby, which I don’t like to learn.&lt;/li&gt;
+&lt;li&gt;Gatsby is written in Javascript, using Reactjs under the hood, which is something I want to learn.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;gatsby&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gatsby&quot; aria-label=&quot;gatsby permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gatsby&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/38ebd563fb6de67e82dfbc6b4ea005f6/00d43/gatsbyjs.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 41.77215189873418%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAIAAAB2/0i6AAAACXBIWXMAAAsTAAALEwEAmpwYAAABGUlEQVQY02P4Dwb//v1HBv+Q+P/AAFMcCBgg3I/vvh7ddmXXyjOPbr1ENguu+u/fv3/+/EE2CKQZQu1eeaY1bWlj4qL2jGXvXnx5/OTRrJmzzp49C5R6/fr1i5cvHj9+fPDAQSD39+/fcP0gzV8+fV8xad/sxq2lgbMmV667f/nV+o1rjx87Pnv27L7evsbGxurq6gkTJjQ1NfX19c2bO+/z588QR0FtPrjx4sa5R2bWb17YueP751+PHz+aM2fO3r1758+fv3Llys2bN8+YMWPx4sVz585duHAhxBdgm8FO+P7158k91/evu/Di8TuwX/+jAYhT79279+nTJ3Q//8cM7X8g45EBWmghNP8DKf0HUvD3Px6Aph8ArjmwgketjacAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Gatsby&quot;
+        title=&quot;Gatsby&quot;
+        src=&quot;/static/38ebd563fb6de67e82dfbc6b4ea005f6/f058b/gatsbyjs.png&quot;
+        srcset=&quot;/static/38ebd563fb6de67e82dfbc6b4ea005f6/c26ae/gatsbyjs.png 158w,
+/static/38ebd563fb6de67e82dfbc6b4ea005f6/6bdcf/gatsbyjs.png 315w,
+/static/38ebd563fb6de67e82dfbc6b4ea005f6/f058b/gatsbyjs.png 630w,
+/static/38ebd563fb6de67e82dfbc6b4ea005f6/40601/gatsbyjs.png 945w,
+/static/38ebd563fb6de67e82dfbc6b4ea005f6/00d43/gatsbyjs.png 1000w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Gatsby can be used to build static sites that are Progressive Web Apps, follow the latest web standards, and are optimized to be highly performant. It makes use of the latest and popular technologies including ReactJS, Webpack, GraphQL, modern ES6+ JavaScript, and CSS.&lt;/p&gt;
+&lt;p&gt;There are quite many features supported by Gatsby out-of-the-box:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Components:&lt;/strong&gt; you can (re)use React components in your Gatsby application.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Webpack bundling and latest tooling:&lt;/strong&gt; helps creates optimized, minified bundles of HTML, JavaScript, and CSS. When it’s pre-configured with Babel and more plugins, it allows you to use the latest ES6+ JavaScript and GraphQL.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugins, Starters, React packages:&lt;/strong&gt; You can use any of the packages you’ve already been using with NPM, particularly the React ones as it’s built on the same thing. But that’s not all: there’s a large number of ever-growing plugins, starters, and transformers by the Gatsby community.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Flexible Styling / Theming:&lt;/strong&gt; Gatsby has support for SCSS, CSS-in-JavaScript libraries, allowing you to manage styles better and with ease. Even the setup for this is fairly easy to handle with the installation of a plugin or package. Gatsby also has a &lt;a href=&quot;https://www.gatsbyjs.com/docs/how-to/plugins-and-themes/shadowing/&quot;&gt;concept of theme shadowing&lt;/a&gt;, which can enhance any existing installation with custom styling rules.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Responsive Images:&lt;/strong&gt; there is &lt;a href=&quot;https://www.gatsbyjs.com/plugins/gatsby-plugin-sharp/&quot;&gt;official plugin&lt;/a&gt; which can directly generate fluid images, add filters, change formats, blur up on load and a lot more.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;App-like experience:&lt;/strong&gt; many default configurations to support PWA, offline caching etc..&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I recommend you to take a look at &lt;a href=&quot;https://www.gatsbyjs.com/docs/conceptual/&quot;&gt;the high-level explanations&lt;/a&gt; of Gatsby to understand more about its design philosophy.&lt;/p&gt;
+&lt;h2 id=&quot;github-pages&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#github-pages&quot; aria-label=&quot;github pages permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;GitHub Pages&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; is a static site hosting services provided for free by Github, which has many advanced features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Custom domain supported&lt;/li&gt;
+&lt;li&gt;Free SSL Certificate&lt;/li&gt;
+&lt;li&gt;Many automation flows to deploy using git.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;setup&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#setup&quot; aria-label=&quot;setup permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Setup&lt;/h2&gt;
+&lt;h3 id=&quot;gatsby-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gatsby-1&quot; aria-label=&quot;gatsby 1 permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gatsby&lt;/h3&gt;
+&lt;p&gt;These are the steps to install and enhance the Starter package using plugins and my own customizations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Install &lt;a href=&quot;https://github.com/gatsbyjs/gatsby-starter-blog&quot;&gt;the official Blog Starter package&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add reading time&lt;/li&gt;
+&lt;li&gt;Add Tags&lt;/li&gt;
+&lt;li&gt;Add Category&lt;/li&gt;
+&lt;li&gt;Add Pagination&lt;/li&gt;
+&lt;li&gt;Add Table of Contents&lt;/li&gt;
+&lt;li&gt;Add RSS&lt;/li&gt;
+&lt;li&gt;Add Light/Dark mode toggle&lt;/li&gt;
+&lt;li&gt;Add Translation:&lt;/li&gt;
+&lt;li&gt;Add Table of Contents&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I’m not going to explain in detail those steps. I’ll publish the source code of my blog as a starter package soon for you to take a look at soon.&lt;/p&gt;
+&lt;p&gt;The design is very much inspired by &lt;a href=&quot;https://overreacted.io/&quot;&gt;Overreacted.io&lt;/a&gt; from &lt;a href=&quot;https://twitter.com/dan_abramov&quot;&gt;Dan Abramov&lt;/a&gt;, which is &lt;a href=&quot;https://github.com/gaearon/overreacted.io&quot;&gt;open-source&lt;/a&gt; as well but running Gatsby 2.0.&lt;/p&gt;
+&lt;h3 id=&quot;lightning-fast&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lightning-fast&quot; aria-label=&quot;lightning fast permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Lightning fast&lt;/h3&gt;
+&lt;p&gt;The main advantage of static site generated with Gatsby is that it is lightning fast. My website has scored 100 points in Lighthouse test.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/007c7f3ccbd0176058ef3ef2f91eeda0/1fec9/lighthouse.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 63.291139240506325%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAAC1UlEQVQ4y1WTyY7bOBCG9RKBG223LGohRZHUQu1yy42OA2dDEAR5iVyjU94h8DGJT3OY95hBH+cwD5SAgmpKcnqQHD6UFujDX8WSpTh9VzX1l6JsP0uVnlwvOBHX/4Xg5BD/tHW8k+ezk0/Dk8841gvBhc9CJF9YKD5YcVL8udsfoKh7YFEGlKdAw+R/AoRFKXS7O2BhBL5HwXV88F0KHgnAcwNwiAdRJPG9+NdKdPf1+OIt3B1ef+eyMFyVJpSPVIaJwsS6My9fvTHbzcawVBg35+YqImYlHGNHnnGJ+321WsF6vf7L6qv6fGg7UPmdqdp+wo9BZrfAVQUog1AWwGQJ94cjbG0bolSB6jTwQgHVAniG91KOhBDwff/BEio7N3UButBG53pCoKw0RCoHGhVIjtISnh6eg+M4KN2Cs7EhoB74Ym6fzM9Hgu9c10VhXJz7uz30+71pu3aqmwbaroGs6CDWuwWRNEvC+SMHkzi2s6QLmhi2NzYQ1xtdnC2KH6xQ6rMuO9Bla1RaTgjMRHGF1Evlqob7p0ccOgNK2ZIU0+B9CEHgg+PSkcoKn9sPlkqyc99XsO8r03X51OF8bncakqxcWr7MsVqENGIgpcST9YB4LvBEglJqlo/EndNjwkjpc1m3UNadKap2yssWZNqBSNtF9puQMRBC4fwwKa4QZSEmplg5tuxfWhaxPt/eNoCYpi0xYTGleT1FcYPtt1jrCYUTHsoUSTmlupjiNPuJXkgyPco4eRRm3/q+RmH9Y7erRpSNPG5HmV5A4YjC8fji9SgEH6UUI+ccCceIs5ExOjIe/cCVmYV/W1zqP+p2BzN52UCaN9jypd15ZR7X5tnxJe6bgKqqIMv0ch3i6syHM+8gIe4s/Me63nj31zb7dG3Tj5ttONhOOGwJGza2P6x/srGDIUn1cHNzMwRBMNi2PVyv18OTJ6sB/5CZj1dXV5+wvv8PBrhs/laC38MAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;writing blog&quot;
+        title=&quot;writing blog&quot;
+        src=&quot;/static/007c7f3ccbd0176058ef3ef2f91eeda0/f058b/lighthouse.png&quot;
+        srcset=&quot;/static/007c7f3ccbd0176058ef3ef2f91eeda0/c26ae/lighthouse.png 158w,
+/static/007c7f3ccbd0176058ef3ef2f91eeda0/6bdcf/lighthouse.png 315w,
+/static/007c7f3ccbd0176058ef3ef2f91eeda0/f058b/lighthouse.png 630w,
+/static/007c7f3ccbd0176058ef3ef2f91eeda0/40601/lighthouse.png 945w,
+/static/007c7f3ccbd0176058ef3ef2f91eeda0/78612/lighthouse.png 1260w,
+/static/007c7f3ccbd0176058ef3ef2f91eeda0/1fec9/lighthouse.png 3808w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;automated-tests&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#automated-tests&quot; aria-label=&quot;automated tests permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Automated Tests&lt;/h3&gt;
+&lt;p&gt;Since I plan to automate my blog deployment using GitHub Actions, I have written some tests to ensure that any change to my setup will not break my blogging site. &lt;/p&gt;
+&lt;p&gt;These are tests that I wrote using &lt;a href=&quot;https://www.cypress.io/&quot;&gt;Cypress&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ensure the blog index page is generated and rendered&lt;/li&gt;
+&lt;li&gt;Ensure the blog detail page is generated and rendered&lt;/li&gt;
+&lt;li&gt;Ensure the RSS feeds are generated&lt;/li&gt;
+&lt;li&gt;Ensure the sitemap file is generated&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;automated-deployment-with-github-actions&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#automated-deployment-with-github-actions&quot; aria-label=&quot;automated deployment with github actions permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Automated deployment with GitHub Actions&lt;/h3&gt;
+&lt;p&gt;GitHub Actions is a free CI/CD work flow provided by GitHub. I raise pull requests everytime I change any thing in the setup or when write a new blog post. GitHub Actions will kick in and ensure that all the tests pass before letting me merging the pull request into &lt;code class=&quot;language-text&quot;&gt;master&lt;/code&gt; branch.&lt;/p&gt;
+&lt;h3 id=&quot;keeping-dependencies-up-to-date&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#keeping-dependencies-up-to-date&quot; aria-label=&quot;keeping dependencies up to date permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Keeping dependencies up-to-date&lt;/h3&gt;
+&lt;p&gt;One thing that I don’t like when doing Javascript project is the number of dependencies that you need to install. Thankfully, there are many tools to help to keep the dependencies managable and up-to-date.&lt;/p&gt;
+&lt;p&gt;I’m currently using &lt;a href=&quot;https://github.com/renovatebot/renovate&quot;&gt;Renovate Bot&lt;/a&gt;, which will scan and update the dependencies in my repository automatically. &lt;/p&gt;
+&lt;p&gt;The bot will create a new pull request to suggest me to update any new dependencies when they are available. &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a464e504eafb209313aae8ce1e1254af/ae2f8/renovatebot.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 25.949367088607595%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA0UlEQVQY042QTW7CMBCFff8bcANWPQBXYIPUXTelQBLjhjixHf8mfh0bCZC6YfFpnu35eR5mrYXSBma2mK3DsqxIaUF8IcT0IBLTpGq+HEf42WPffmJz2OLjawdmfYToB3pUkJOmpr7iQqz4kKjYQVMDTVGZe5yqCbqn80haag1FOcz4hN+hR9N2aDteEUIgBI9lXbFW8n/yU+dcADJpVlxcOMf3zxnHU4PTpUN/G2CKUxdQfvAeAY4iK5NuUqLjV/CrgJQD7SrS7tLL9Pcovf4AbI6Cwz/sHIEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;writing blog&quot;
+        title=&quot;writing blog&quot;
+        src=&quot;/static/a464e504eafb209313aae8ce1e1254af/f058b/renovatebot.png&quot;
+        srcset=&quot;/static/a464e504eafb209313aae8ce1e1254af/c26ae/renovatebot.png 158w,
+/static/a464e504eafb209313aae8ce1e1254af/6bdcf/renovatebot.png 315w,
+/static/a464e504eafb209313aae8ce1e1254af/f058b/renovatebot.png 630w,
+/static/a464e504eafb209313aae8ce1e1254af/40601/renovatebot.png 945w,
+/static/a464e504eafb209313aae8ce1e1254af/78612/renovatebot.png 1260w,
+/static/a464e504eafb209313aae8ce1e1254af/ae2f8/renovatebot.png 2496w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Thanks to the automated tests, I’m quite confident in updating those dependencies since the tests will ensure that everything is still working fine.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/26b008278ead1d262a0d11cb4effce3b/a88f6/renovate_pr_check.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 29.11392405063291%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAABNklEQVQY002QyU7DMBRF+/9LvgDBhh1iARuQ6AYESAgkRItoaSU6xRmc1Emc2BkOTjqIJx9fe/Gu7nuD+9UTz+KdZeoRbWOkSojTLWmRUbU1tq2wzQGL2XN429aSWYPUptfBJJkziqeMgynL5ZrFYoXnCZRKqaq6p66bnrZtoTtOD7iLqm7JiobMVAzYlx9GTGZz/EjiBSEiiFh7fq8yUYQyIc01eVGiS+OwR0prUbkhTIudYWQSXjcfJCIhCVxjlOJtBOvNhsVyhfB9pHTGUuIHAVrnuxT/k7qq3Yp6Q2Uzhr8v3P48cPfzyPX3kJUU6Lxkm2oy3SWqKF2aosPUlA5jm+M6Oky9HzkuFRdfN5x+XnI2uuLk7ZyxP0NlOYEz9N0onioI3F5Dh3B/oTRRVqBtSX6k4A8RnslY9nKTmAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;writing blog&quot;
+        title=&quot;writing blog&quot;
+        src=&quot;/static/26b008278ead1d262a0d11cb4effce3b/f058b/renovate_pr_check.png&quot;
+        srcset=&quot;/static/26b008278ead1d262a0d11cb4effce3b/c26ae/renovate_pr_check.png 158w,
+/static/26b008278ead1d262a0d11cb4effce3b/6bdcf/renovate_pr_check.png 315w,
+/static/26b008278ead1d262a0d11cb4effce3b/f058b/renovate_pr_check.png 630w,
+/static/26b008278ead1d262a0d11cb4effce3b/40601/renovate_pr_check.png 945w,
+/static/26b008278ead1d262a0d11cb4effce3b/78612/renovate_pr_check.png 1260w,
+/static/26b008278ead1d262a0d11cb4effce3b/a88f6/renovate_pr_check.png 1900w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;conclusion&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-label=&quot;conclusion permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;In this article, I have described shortly my minimal setup for my blogging site with some of the features that I’m quite happy with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Using Gatsby to generate a static site from Markdown content. &lt;/li&gt;
+&lt;li&gt;Having automated tests to ensure the site is working E2E.&lt;/li&gt;
+&lt;li&gt;Deployed automatically using GitHub Actions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All I need to do is writing, which is actually the hardest part of keeping your blog alive.&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@saltnstreets&quot;&gt;Daniel Thomas&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/computer-writing&quot;&gt;Unsplash&lt;/a&gt;&lt;sub&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Starting a technical blog in 2021 - How? (Part 2)]]></title><description><![CDATA[In the previous article, I have discussed some reasons why every developer should start a technical blog today. One of the reasons is that…]]></description><link>https://antran.app/2021/minimal-technical-blogging-part2/</link><guid isPermaLink="false">https://antran.app/2021/minimal-technical-blogging-part2/</guid><pubDate>Sat, 10 Apr 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2ae5d368521a05798b181b7d714fb340/e5bc7/banner.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.45569620253164%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBP/EABUBAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAAFGyJRKosqP/8QAGxAAAQQDAAAAAAAAAAAAAAAAAgABAxIEETL/2gAIAQEAAQUCDMIUUt2ge0XKAqIH0P8A/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAEDAQE/Aa1//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AYx//8QAGxABAQACAwEAAAAAAAAAAAAAAQAiMQIDEXH/2gAIAQEABj8Cyyk6+IfYXd5agv/EABsQAQADAQADAAAAAAAAAAAAAAEAESFBMVFh/9oACAEBAAE/Ic645tQmIq+GVd+o6RV+4IxL1WUJ4Cf/2gAMAwEAAgADAAAAEGM//8QAFhEAAwAAAAAAAAAAAAAAAAAAARAR/9oACAEDAQE/ELC//8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QAx//xAAbEAEBAQEAAwEAAAAAAAAAAAABESEAMUGBof/aAAgBAQABPxAq/jpp9zexfWaXxZmfemqaEhsXeUcqJOnC6I9i/nQ7AB3/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;writing blog&quot;
+        title=&quot;writing blog&quot;
+        src=&quot;/static/2ae5d368521a05798b181b7d714fb340/828fb/banner.jpg&quot;
+        srcset=&quot;/static/2ae5d368521a05798b181b7d714fb340/ff44c/banner.jpg 158w,
+/static/2ae5d368521a05798b181b7d714fb340/a6688/banner.jpg 315w,
+/static/2ae5d368521a05798b181b7d714fb340/828fb/banner.jpg 630w,
+/static/2ae5d368521a05798b181b7d714fb340/0ede0/banner.jpg 945w,
+/static/2ae5d368521a05798b181b7d714fb340/3ac88/banner.jpg 1260w,
+/static/2ae5d368521a05798b181b7d714fb340/e5bc7/banner.jpg 5184w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In the previous article, I have discussed some reasons why every developer should start a technical blog today.&lt;/p&gt;
+&lt;p&gt;One of the reasons is that it is so easy to start a blog today in comparison to some years ago. Many platforms have been created to help developers to concentrate only on writing. All tedious tasks such as hosting, distributions, marketing are being handled nicely by such platforms. We can say nowadays when you have good content and find your targeted audiences, you will be able to succeed in your content creation journey. &lt;/p&gt;
+&lt;p&gt;So you have invested your time to write up a great blog post, so where should you publish your tech blog? Should you use &lt;a href=&quot;https://dev.to/&quot;&gt;DEV&lt;/a&gt;, &lt;a href=&quot;http://hashnode.com/&quot;&gt;Hashnode&lt;/a&gt;, or &lt;a href=&quot;https://medium.com/&quot;&gt;Medium&lt;/a&gt;? Or should you consider starting a personal blog of your own, without using any of these platforms? In this article, I’ll discuss some options to create, host, and distribute your content.&lt;/p&gt;
+&lt;h2 id=&quot;hosting&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#hosting&quot; aria-label=&quot;hosting permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Hosting&lt;/h2&gt;
+&lt;p&gt;It’s 2021, and you don’t have to set up a LAMP server somewhere for your WordPress to host your blogs anymore. There are current 3 major developer-focused blogging platforms that we can choose to publish our blogs:&lt;/p&gt;
+&lt;h3 id=&quot;dev&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#dev&quot; aria-label=&quot;dev permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;DEV&lt;/h3&gt;
+&lt;p&gt;DEV is a community of developers who create and share great technical content. It’s not limited to written content, but you can also publish Podcasts or Videos on the platform.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Everything is free&lt;/li&gt;
+&lt;li&gt;Get your own subdomain&lt;/li&gt;
+&lt;li&gt;Very creator-friendly. That means that your content will have a good chance to be shown to other readers even if you have just started and don’t have many followers.&lt;/li&gt;
+&lt;li&gt;Great source of traffic if you want to attract people to your own website.&lt;/li&gt;
+&lt;li&gt;A spirit of “no judgment” community. No need to worry if your content is “not good enough”.&lt;/li&gt;
+&lt;li&gt;Great embedded code snippet support.&lt;/li&gt;
+&lt;li&gt;The platform itself is open-source. You can host your own community (such as internal content sharing platforms for your companies) by yourself.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No custom domain support. &lt;/li&gt;
+&lt;li&gt;Markdown only editor. So if you have just transited from WordPress, you need to learn basic Markdown to write content, although I’d highly recommend suggest you write your blog in Markdown.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;hashnode&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#hashnode&quot; aria-label=&quot;hashnode permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Hashnode&lt;/h3&gt;
+&lt;p&gt;Hashnode is a free content creation platform that enables developers to create a full-fledged &amp;#x26; optimized blog mapped to their custom domain for free.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Everything is free, even custom domain support.&lt;/li&gt;
+&lt;li&gt;Get your own subdomain&lt;/li&gt;
+&lt;li&gt;Community-driven distribution. Your content will be shown on other’s feeds which is great to drive traffic to your domain/website.&lt;/li&gt;
+&lt;li&gt;Many options to customize your blog.&lt;/li&gt;
+&lt;li&gt;Great integration to analytics tools.&lt;/li&gt;
+&lt;li&gt;Great editor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The community is much smaller than on DEV.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;medium&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#medium&quot; aria-label=&quot;medium permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Medium&lt;/h3&gt;
+&lt;p&gt;Medium is probably the most popular platform for written content creators, and not just for technical-focused content.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Great SEO, your content will be likely to be found in Google search&lt;/li&gt;
+&lt;li&gt;Big tech-focused publications that accept submissions from everyone.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Less traffic for starters since the articles are distributed based on popularity of the sources or if you are part of their &lt;a href=&quot;https://medium.com/earn&quot;&gt;Partner Program&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Developers are turning their backs to Medium because of bad UX and the paywall.&lt;/li&gt;
+&lt;li&gt;Not many interactions with the community.&lt;/li&gt;
+&lt;li&gt;Still no real support for code snippets. You must use either screeshots or &lt;a href=&quot;https://gist.github.com/&quot;&gt;Gist&lt;/a&gt; to show your codes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;hosting-your-own-blogs&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#hosting-your-own-blogs&quot; aria-label=&quot;hosting your own blogs permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Hosting your own blogs&lt;/h2&gt;
+&lt;p&gt;There are many ways to host your own CMS/Website nowadays. There are 2 popular options how to host a content website nowadays:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Setup a web server and install a CMS software&lt;/li&gt;
+&lt;li&gt;Use Static Site Generator and host them for free on free hosting service (such GitHub Pages, Netlify …)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You are free to customize your blog however you want.&lt;/li&gt;
+&lt;li&gt;You can monetize your blog as you want.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Some efforts to set up hosting infrastructure. Although it is very minimal if you go with the combination of Static Site Generator and GitHub Pages or Netlify&lt;/li&gt;
+&lt;li&gt;You need to find your audiences by yourself.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;conclusion&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-label=&quot;conclusion permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;All of the options are great choices to kickstart your technical blogs. It mostly depends on what kind of experiences in blogging you have had so far and what kind of interactions you want to have with your audiences in the future.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you have your own domain and already have a good base audience, you can go with hosting your blogs by yourself to have better control.&lt;/li&gt;
+&lt;li&gt;If you are a beginner, I’d recommend you to start with DEV where you can start building up your audiences&lt;/li&gt;
+&lt;li&gt;If you have your own domain and don’t want to host the blog by yourself, you can consider Hashnode since it supports custom domains for free.&lt;/li&gt;
+&lt;li&gt;Finally, if you want to have better distribution for your content, you can consider cross-posting your content to Medium for better SEO.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In the next article, I’ll discuss my own blogging stack using a Static Site Generator framework &lt;a href=&quot;https://www.gatsbyjs.com/&quot;&gt;Gatsby&lt;/a&gt;, hosting for free on &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt; under a &lt;a href=&quot;https://antran.app/&quot;&gt;custom domain&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@dtbosse&quot;&gt;Daniel Thomas&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/blogging&quot;&gt;Unsplash&lt;/a&gt;&lt;sub&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Starting a technical blog in 2021 - Why? (Part 1)]]></title><description><![CDATA[Most developers want to write code, because that the best skill they can do and want to do. With code, you are able to solve your problems…]]></description><link>https://antran.app/2021/minimal-technical-blogging-part1/</link><guid isPermaLink="false">https://antran.app/2021/minimal-technical-blogging-part1/</guid><pubDate>Fri, 09 Apr 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d5f2779e5a84bf92e5d939ed7cc9b20e/c83bb/banner.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75.31645569620254%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwAF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAXfPWFlo/8QAGRABAQEBAQEAAAAAAAAAAAAAAgEDEgAE/9oACAEBAAEFAol6KQc6qq/P0tMtCLSf/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8BR//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EACAQAAICAAYDAAAAAAAAAAAAAAERAAIDEhMhIjFRgZH/2gAIAQEABj8C7HyCxD8qOlkIc1OT3M0sNj1ES5//xAAcEAADAQACAwAAAAAAAAAAAAAAASERMWFxgbH/2gAIAQEAAT8hrhRROeN5Zo3VHEenQT6ID2LjIETcXR//2gAMAwEAAgADAAAAEKg//8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAEDAQE/EAdmf//EABYRAQEBAAAAAAAAAAAAAAAAAAEAIf/aAAgBAgEBPxBSy//EAB0QAQACAgIDAAAAAAAAAAAAAAERIQBBMYFRYXH/2gAIAQEAAT8QY1Ygpp941wIIRPI+GGfe0cnnvLfMiDUzoxT4RwHbT3jsaMwK6z//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;writing blog&quot;
+        title=&quot;writing blog&quot;
+        src=&quot;/static/d5f2779e5a84bf92e5d939ed7cc9b20e/828fb/banner.jpg&quot;
+        srcset=&quot;/static/d5f2779e5a84bf92e5d939ed7cc9b20e/ff44c/banner.jpg 158w,
+/static/d5f2779e5a84bf92e5d939ed7cc9b20e/a6688/banner.jpg 315w,
+/static/d5f2779e5a84bf92e5d939ed7cc9b20e/828fb/banner.jpg 630w,
+/static/d5f2779e5a84bf92e5d939ed7cc9b20e/0ede0/banner.jpg 945w,
+/static/d5f2779e5a84bf92e5d939ed7cc9b20e/3ac88/banner.jpg 1260w,
+/static/d5f2779e5a84bf92e5d939ed7cc9b20e/c83bb/banner.jpg 4608w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Most developers want to write code, because that the best skill they can do and want to do. With code, you are able to solve your problems, create values for customers, or just fulfill your own coding hobbies.&lt;/p&gt;
+&lt;p&gt;But recently, there is a trend in the tech community that many developers start creating technical content to share their knowledge with others. There are many ways to create technical content such as writing blogs, publishing Youtube videos, streaming live. But writing in a blog is one of the easiest to kick start your content creation journey. &lt;/p&gt;
+&lt;p&gt;There are many reasons to write tutorials, documentation, or complete technical guidance. And this activity is not just suitable for experienced developers. It can be initiated by developers with all levels of experience.&lt;/p&gt;
+&lt;p&gt;In this blog post, I’ll quickly share some reasons why starting a technical blog is a good thing for every developer at any level.&lt;/p&gt;
+&lt;h2 id=&quot;use-blog-as-your-tech-dairy&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#use-blog-as-your-tech-dairy&quot; aria-label=&quot;use blog as your tech dairy permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Use blog as your tech dairy&lt;/h2&gt;
+&lt;p&gt;As a developer, you learn new things almost every day. It might be a new API that you didn’t know about before, or a tool that helps you to boost your productivity, or even some solutions in Stack Overflow or other blogs that help you to fix some bugs or solve some technical challenges.&lt;/p&gt;
+&lt;p&gt;If you keep those findings in a short blog post, you will be able to find them again easily when you encounter the same problems again in the future.&lt;/p&gt;
+&lt;p&gt;I can’t count how many times I find some old Stack Overflow questions that I have visited, or even answered by myself because I have googled a solution for the same problems again and again after some period of time. With a blog post to keep some explanation for the problem, I’d be able to save time to find the correct keywords for my google search and could recall the solution much easier.&lt;/p&gt;
+&lt;h2 id=&quot;use-writing-as-a-teaching-method&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#use-writing-as-a-teaching-method&quot; aria-label=&quot;use writing as a teaching method permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Use writing as a teaching method&lt;/h2&gt;
+&lt;p&gt;Finding a solution in Stack Overflow/Google is easy nowadays. But if you want to grow as a developer, you’d strive to understand the solution in and out.&lt;/p&gt;
+&lt;p&gt;One way to archive that is to explain the solution in words. Writing a blog to explain your problem, and the solution you made or found is a great way to help you understand the problem and the solution even deeper&lt;/p&gt;
+&lt;h2 id=&quot;written-communication-is-a-valuable-skill&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#written-communication-is-a-valuable-skill&quot; aria-label=&quot;written communication is a valuable skill permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;(Written) communication is a valuable skill&lt;/h2&gt;
+&lt;p&gt;A good developer nowadays should not only be good at coding. If you are indie developer, you should be able to market your products. If you work i a team, you should be able to document, communicate with other team members about technical topics related to your products.&lt;/p&gt;
+&lt;h2 id=&quot;personal-branding&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#personal-branding&quot; aria-label=&quot;personal branding permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Personal branding&lt;/h2&gt;
+&lt;p&gt;Tech recruitment has changed a lot in recent years. There is a huge demand for developers and the number of tech jobs is not small as well. So if you are working in tech, the chance that you can apply to multiple jobs at the same time, or being searched by job hunters is very high. But at the same time, you have to compete as well with many other fellow developers.&lt;/p&gt;
+&lt;p&gt;Even if you are indie developers/freelancers, you still want to market and expose your skills/products on Internet. And the best way to do it is to have a link placed somewhere for Google to index. This will increase the chance that someone will find your content when you are lucky.&lt;/p&gt;
+&lt;p&gt;Generally, as a developer, having a personal brand can help you:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Build reputation and credibility.&lt;/li&gt;
+&lt;li&gt;Share your knowledge and projects for feedback.&lt;/li&gt;
+&lt;li&gt;Increase visibility in the job market.&lt;/li&gt;
+&lt;li&gt;Make new connections with people in the same industry / with the same interest.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;its-very-easy-to-start&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#its-very-easy-to-start&quot; aria-label=&quot;its very easy to start permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;It’s very easy to start&lt;/h2&gt;
+&lt;p&gt;It’s not like the year 2000 where you have to setup a LAMP server to run Wordpress for your blog. It’s so easy to start writing today. In fact, many platforms such as &lt;a href=&quot;https://medium.com/&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://dev.to/&quot;&gt;DEV&lt;/a&gt; or &lt;a href=&quot;https://hashnode.com/&quot;&gt;Hashnode&lt;/a&gt; have emerged to help you host and spread your content. You can fully concentrate to write and make your content attractive to your target audience nowadays.&lt;/p&gt;
+&lt;p&gt;Those are some of the reasons why every developer should start a blog today. As with most of the activities in our life, it’s quite easy to start but quite challenging to keep going. So having a minimal start and keep the motivation high is crucial to keep your blog alive. In the next post, I’ll discuss how to start a blog in 2021 and why consistency is more important than the quantity of blog posts.&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/photos/FHnnjk1Yj7Y&quot;&gt;Nick Morrison&lt;/a&gt;&lt;sub&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
