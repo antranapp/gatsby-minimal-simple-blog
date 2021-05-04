@@ -21,9 +21,8 @@ git push -u origin gh-pages
 
 **Step 2**
 
-
-**Step 3**
-
 ```shell
 npm run deploy
 ```
+
+If everything goes well, you should be able to access [the page](https://antranapp.github.io/gatsby-minimal-simple-blog/)
