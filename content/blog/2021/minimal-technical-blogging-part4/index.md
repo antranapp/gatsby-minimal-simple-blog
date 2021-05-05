@@ -14,7 +14,7 @@ In the [last article](https://antran.app/2021/minimal-technical-blogging-part3/)
 
 - Using **[Github Pages](https://pages.github.com/)**, we can host the generated site for FREE on Github infrastructure.
 
-- Using **[Github Actions](https://github.com/features/actions)** automation, we can deploy our site automatically from Github. With Renovate bot integration, we keep dependencies up-to-date automatically as well.
+- Using **[Github Actions](https://github.com/features/actions)** automation, we can deploy our site automatically from Github. With **[Renovate bot](https://www.whitesourcesoftware.com/free-developer-tools/renovate)** integration, we keep dependencies up-to-date automatically as well.
 
 In this article, I'll introduce you to the [gatsby-minimal-simple-blog](https://github.com/antranapp/gatsby-minimal-simple-blog) package, which is the bare-bone package containing all customizations I have for my blog.
 
