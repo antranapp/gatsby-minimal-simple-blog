@@ -52,4 +52,6 @@ It's not like the year 2000 where you have to setup a LAMP server to run Wordpre
 
 Those are some of the reasons why every developer should start a blog today. As with most of the activities in our life, it's quite easy to start but quite challenging to keep going. So having a minimal start and keep the motivation high is crucial to keep your blog alive. In the next post, I'll discuss how to start a blog in 2021 and why consistency is more important than the quantity of blog posts.
 
+In the [next article](https://antran.app/2021/minimal-technical-blogging-part2/), I'll discuss different platforms and hosting options to kick start your technical blog easily.
+
 <sub>Photo by [Nick Morrison](https://unsplash.com/photos/FHnnjk1Yj7Y)<sub>

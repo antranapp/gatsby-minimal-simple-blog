@@ -86,6 +86,6 @@ All of the options are great choices to kickstart your technical blogs. It mostl
 - If you have your own domain and don't want to host the blog by yourself, you can consider Hashnode since it supports custom domains for free.
 - Finally, if you want to have better distribution for your content, you can consider cross-posting your content to Medium for better SEO.
 
-In the next article, I'll discuss my own blogging stack using a Static Site Generator framework [Gatsby](https://www.gatsbyjs.com/), hosting for free on [Github Pages](https://pages.github.com/) under a [custom domain](https://antran.app/).
+In the [next article](https://antran.app/2021/minimal-technical-blogging-part3/), I'll discuss my own blogging stack using a Static Site Generator framework [Gatsby](https://www.gatsbyjs.com/), hosting for free on [Github Pages](https://pages.github.com/) under a [custom domain](https://antran.app/).
 
 <sub>Photo by [Daniel Thomas](https://unsplash.com/@dtbosse) on [Unsplash](https://unsplash.com/s/photos/blogging)<sub>

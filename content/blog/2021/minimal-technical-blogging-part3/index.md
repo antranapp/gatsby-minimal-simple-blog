@@ -118,4 +118,6 @@ In this article, I have described shortly my minimal setup for my blogging site 
 
 All I need to do is writing, which is actually the hardest part of keeping your blog alive.
 
+In the [next article](https://antran.app/2021/minimal-technical-blogging-part4/), I'll show you the open source starter package containing all customizations I have, so that you can kick start a similar project for your blog easily.
+
 <sub>Photo by [Daniel Thomas](https://unsplash.com/@saltnstreets) on [Unsplash](https://unsplash.com/s/photos/computer-writing)<sub>
