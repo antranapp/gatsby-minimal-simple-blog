@@ -8,15 +8,13 @@ tags: ["react", "gatsby", "blogging"]
 
 ![writing blog](banner.png)
 
-<sub>Photo by [Daniel Thomas](https://unsplash.com/@dtbosse) on [Unsplash](https://unsplash.com/s/photos/blogging)<sub>
-
 In the [last article](https://antran.app/2021/minimal-technical-blogging-part3/) in the series, I have introduced you to my minimal blogging setup using Gatsby and Github Pages: 
 
-- Using **Gatsby** as a static site generator, we can easily create a static site for our Markdown content. The generated site is highly customizable, easily extensible, and fast.
+- Using **[Gatsbyjs](https://www.gatsbyjs.com/)** as a static site generator, we can easily create a static site for our Markdown content. The generated site is highly customizable, easily extensible, and fast.
 
-- Using **Github Pages**, we can host the generated site for FREE on Github infrastructure.
+- Using **[Github Pages](https://pages.github.com/)**, we can host the generated site for FREE on Github infrastructure.
 
-- Using **Github Actions** automation, we can deploy our site automatically from Github. With Renovate bot integration, we keep dependencies up-to-date automatically as well.
+- Using **[Github Actions](https://github.com/features/actions)** automation, we can deploy our site automatically from Github. With Renovate bot integration, we keep dependencies up-to-date automatically as well.
 
 In this article, I'll introduce you to the [gatsby-minimal-simple-blog](https://github.com/antranapp/gatsby-minimal-simple-blog) package, which is the bare-bone package containing all customizations I have for my blog.
 
@@ -28,7 +26,7 @@ When you first install Gatsbyjs, you normally install the [gatsby-blog-starter](
 
 There are [many other starter libaries](https://www.gatsbyjs.com/starters/) available, containing different sets of customizations, and suitable for different purposes.
 
-To enable other people to be able to create a similar blogging site as mine, I have extracted all customizations I have for my blog into the `gatsby-minimal-simple-blog` package. Everyone can easily use this library to kick off a new project with this template. This starter ships with all customizations I have for [my blog](https://antran.app).
+To enable other people to be able to create a similar blogging site as mine, I have extracted all customizations I have for my blog into the [gatsby-minimal-simple-blog](https://github.com/antranapp/gatsby-minimal-simple-blog) package. Everyone can easily use this library to kick off a new project with this template. This starter ships with all customizations I have for [my blog](https://antran.app).
 
 ## What included?
 
