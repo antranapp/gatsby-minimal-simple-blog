@@ -5,7 +5,7 @@ describe('RSS', () => {
   let title = ''
 
   before(() => {
-    cy.request('/rss/swift.xml')
+    cy.request('/rss.xml')
     .as('rss')
     .then((response) => {
       let body = Cypress.$(response.body)
@@ -15,7 +15,7 @@ describe('RSS', () => {
   });
 
   it('should have a feed title', () => {
-    expect(title).to.contain('Swift by An Tran')
+    expect(title).to.contain('RSS Feed')
   });
 
   it('should have items', () => {
