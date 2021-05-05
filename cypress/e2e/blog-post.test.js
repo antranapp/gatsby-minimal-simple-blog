@@ -2,9 +2,9 @@
 
 describe("Blog Post", () => {
   beforeEach(() => {
-    cy.visit("/2019/swift_publish/")
+    cy.visit("/2021/minimal-technical-blogging-part3/")
   })
-
+  
   describe('Headline', () => {
     it("should contain", () => {
       // Get header by class `global-header`.
@@ -12,7 +12,7 @@ describe("Blog Post", () => {
       // with text `Minimal Blog`.
       cy.get('header[class="global-header"]').within(($header) => {
         cy.get('a[class="header-link-home"]').then(($link) => {
-          expect($link).to.contain('Minimal Blog');
+          expect($link).to.contain('gatsby-minimal-simple-blog');
         });
       });
     })
