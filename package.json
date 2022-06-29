@@ -35,7 +35,7 @@
   "devDependencies": {
     "cypress": "9.7.0",
     "gh-pages": "3.2.3",
-    "jest": "28.1.1",
+    "jest": "28.1.2",
     "prettier": "2.7.0",
     "start-server-and-test": "1.14.0"
   },
