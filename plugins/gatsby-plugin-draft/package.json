@@ -17,7 +17,7 @@
     "gray-matter": "4.0.3",
     "jest": "29.4.3",
     "mockdate": "3.0.5",
-    "prettier": "2.8.3"
+    "prettier": "2.8.4"
   },
   "peerDependencies": {
     "gatsby": "^3.0.0"
