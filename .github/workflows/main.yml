@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: '14'
 
-      - uses: antranapp/gatsby-gh-pages-action@v2.4
+      - uses: enriikke/gatsby-gh-pages-action@main
         with:
           access-token: ${{ secrets.GITHUB_TOKEN }}
           deploy-branch: gh-pages
