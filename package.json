@@ -37,7 +37,7 @@
     "gh-pages": "6.1.1",
     "jest": "29.7.0",
     "prettier": "3.3.3",
-    "start-server-and-test": "2.0.4"
+    "start-server-and-test": "2.0.5"
   },
   "homepage": "https://github.com/antranapp/gatsby-minimal-simple-blog",
   "keywords": [
