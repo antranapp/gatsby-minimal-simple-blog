@@ -36,7 +36,7 @@
     "cypress": "14.5.0",
     "gh-pages": "6.3.0",
     "jest": "30.0.3",
-    "prettier": "3.5.3",
+    "prettier": "3.6.2",
     "start-server-and-test": "2.0.12"
   },
   "homepage": "https://github.com/antranapp/gatsby-minimal-simple-blog",
