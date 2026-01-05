@@ -20,7 +20,7 @@
     "prettier": "3.6.2"
   },
   "peerDependencies": {
-    "gatsby": "^3.0.0"
+    "gatsby": "^3.0.0 || ^5.0.0"
   },
   "scripts": {
     "lint": "prettier --check './**/*.js'",
